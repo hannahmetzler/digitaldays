@@ -1,0 +1,771 @@
+---
+lang: de
+format: 
+  revealjs:
+    footer: https://hannahmetzler.eu/digitaldays
+    seal: false
+    transition: 'slide'
+    ## Defines the theme of the presentation, both version and style
+    theme: [default, custom.scss]
+    # incremental slides point by point
+    # incremental: true
+    aspect-ratio: 16:9
+    slide-number: true
+# title-slide-attributes:
+#     data-background-color: "#1f5c99"
+#     data-background-size: cover
+#     data-background-opacity: "0.5"
+#editor
+editor: source
+---
+
+##  {.center}
+
+### Der Einfluss von Algorithmen, Echokammern und KI auf den digitalen Diskurs und was zu tun ist.
+
+<br>
+
+**Mag. Dr. Hannah Metzler** <br> *Complexity Science Hub & Medizinische Universität Wien* <br>
+
+Klimaaktiv Webinar am 8. Mai 2024
+
+::: columns
+::: {.column width="30%"}
+![](logos/digitaldays.png)
+:::
+
+::: {.column width="35%"}
+![](logos/Complexity-Science-Hub-logo-1.png)
+:::
+
+::: {.column width="33%"}
+![](logos/wwtf.svg)
+:::
+:::
+
+## Outline Talk  {visibility="hidden"}
+
+Telefonat Notizen für Diskussion: 
+
+1) Mensch Covid conspiracies während Lockdown, FH Studium, alleine zuhause, online
+
+Wenn Mensch psychisch stabil, Freunde & Familie, Vertrauen ins politische system, sich repräsentiert fühlt, Teil der Gesellschaft: dann passiert sowas nicht. 
+Stats: wieviele Menschen in Ö glauben an Verschwörungstheorien, wie häufig war Misinfo auf Facebook während Covid
+Was kann man tun? Sektenberatungsstellen, sehr schwer Menschen da wieder raus zu holen - Beziehungen erhalten, Vertrauen erhalten, ich bin da wenn du mich brauchst. 
+Andere Menschen: früher abholen
+
+Reale Probleme der Menschen und in der Politik
+
+2) Wie kann man Inklusion schaffen? Beitrag von Digitalen Tools?
+
+- Wer darf wählen? 
+- Kann ich in der Arbeit mitgestalten?
+
+- Social Media macht Gruppen erreichbar die sich nicht repräsentiert fühlen. Gute Strategie.
+- Algorithmen die menschlichen/gesellschaftlichen Tendenzen entgegen wirken: 
+  - Sichtbarkeit der Lauten => moderate Menschen sichtbarer machen
+  - Übereinstimmunt & Überlappung zwischen Gesellschaftsgruppen und Meinungen
+  - Algorithmen, die Inhalte aus Medien mit hohen journalistischen Standards pushen (Quellenangaben, Herausgeber, Überprüfungen etc.)
+- Öffentlich finanzierte Social Media Platform für politische Diskussion: Platformen sind für Unterhaltung gemacht, nicht designt für guten Austausch
+  - Chris Bail: anonyme Diskussion mit Dems/Rep
+
+3) Gefahr neue AIs für Fehlinformation, Deep Fakes, Propaganda Kampagnen etc. 
+
+- Gefahr von AI nicht verharmlosen. 
+  - Große Gefahr Arbeitsmarkt, große Veränderung, Umverteilung von Gewinnen, gesellschafltiche Ungleichheit wird größer, etc.
+  - Viele andere Gefahren, wenn intelligente Maschinen vervielfältig werden können, und wir sie nicht mehr verstehen, ihnen Entscheidungen überlassen
+  
+- Allerdings glaube ich nicht an eine große Gefahr durch Desinformationskampagnen mit den aktuellen Sprachmodellen. Warum?
+
+- Selbe Argumentation wie Algorithmen: Ursachen, Reale probleme, liegen woanders. Desinforamtion nur wirksam, wenn es andere Probleme gibt. 
+- Wer und welche Länder sind empfänglich für Fehlinformation?
+  - Korruption, kein gutes Mediensystem, keine transparente Politik, keine vertrauenswürdige/effektive Politik etc., reale Probleme ungelöst (Migration, Wirtschaft, Bildung...)
+- AI kann sehr viel Info produzieren, jetzt schon viel Bullshit im Netz. 
+- Kann nicht mehr Aufmerksamkeit schaffen, jetzt schon enorm kompetitiver Kampf um Aufmerksamkeit in den Medien und auf sozialen Medien. Mehr AI info kriegt da nicht viel Aufmerksamkeit.
+- Gefahr durch eigene Regierung (China, Russland) natürlich groß. Aber Fehlinformationsattacken aus dem Ausland nicht besonders effektiv. (e.g. Cambridge Analytica, Russland, USA Wahlen)
+
+- Überzeugender/pesonalisiertere Fehlinfo?
+  - Aufmerksamkeit immer noch Problem. 
+    -   so viel besser als Menschen/Journalist/Propaganda Experte kann AI nicht werden, nur wenig Raum. 
+    - Experimente mit personalisiert vs. standard politischer Botschaft: nicht überzeugender. Schon AI von vor 2 Jahren recht gut, Anstieg abgeflacht. 
+    -   sehr personalisiert: kann man nicht weiter teilen - wir wollen mit anderen über Content reden können
+    -   AI hilft auch der guten Seite -   warum sollten die Bösen da einen Vorteil haben?
+
+### Vortrag Notizen: 
+
+Ich forsche zu Misinfo, rolle soz & alg auf social media, emotionen
+
+Misinfo ist ein Symptom gesellschaftlicher Polarisierung - wird geteilt von Menschen, die sich nicht repräsentiert fühlen, extreme politische Meinungen haben, kein Vertrauen in’s System (Bildung, Medizin, Politik, Medien etc). 
+
+Pandemie, Misinfo riesen thema - meine Annahmen (Geselschaftliche Annahmen zu Algorithmen, Fehlinfo, Emotionen, Manipulierbarkeit)
+
+Seit 2021 Projekt, wissenschaftliche Perspektive auf Themen Misinfo, Rolle social media, rolle von Algs, und ich war oft sehr überrascht. Viele Meinungen losgelassen. Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
+
+Vortrag Punkt 1: Effekte von Algorithmen gibt es, aber sie sind klein. Soziale Faktoren spielen eine viel größere Rolle bei Meinungsbildung
+
+Welche Soziale Faktoren? 
+
+- Suche nach Info, wer? Reale Probleme: Lebensumstände, Einsamkeit, sich nicht teil fühlen, Vertrauen in das System, extreme politische Meinungen
+- menschliche Tendenz zur Gruppenbildung/Bestätigung der eigenen Meinung. 
+- Sehr viele verschiedene Sichtweisen prallen zusammen - Konflikte, Gesellschaftsgruppen die früher keinen Kontakt hatten, keine öffentlichen Debatten miteinander führten. 
+- Social Media scheint sehr polarisiert, ist weniger schlimm. wer ist sichtbar? Die Lauten, Extremen. Medien/Politiker fokussieren auf sie. Verzerrtes Bild der wirklichkeit, die moderaten Meinungen, Menschen die sich nicht für Politik interessieren, Dinge die gut laufen etc. sind nicht sichtbar. Fehlinfo punkt?
+
+Studien Algorithmen Beispiele
+- abdrehen: keine Effekte auf Meinung, politische Polarisierung
+- gleichgesinnte Inhalte
+- Faktenwissen, Misinfo (read paper Kritik)
+
+Facebook verlassen für 6 Wochen
+- Effekte
+- polarisierter Kontext
+
+Balancierte Perspektive auf Rolle von Algorithmen (Waage Bild)
+Nicht so allmächtig wie wir denken. Können menschliche Tendenzen verstärken, lernen aus menschlichen Daten.
+Wir wissen nicht: Was wenn es Algorithmen nie gegeben hätte, wenn wir sie für 3 Jahre lang für ein ganzes land abdrehen könnten, wenn ein Land noch nicht polarisiert ist...
+
+Vortrag Punkt 2: 
+Menschen sind nicht leicht zu überzeugen. Wir sind recht stur, bleiben gern bei unserem Weltbild. Wenige ändern politische Meinung, Einstellung zu Impfungen, zum Klimawandel etc. Soziales Umfeld sehr prägend. 
+Fehlinformationspostings oder polarisierendes Posting eines Algorithmus macht Menschen nicht blind wütend, Schäfchen die alles glauben. Wenn es nicht in ihr Weltbild passt, glauben sie das nicht.
+
+Wenn sie mir nicht glauben, dass Algorithmen überschätzt werden, ist das eine erste Bestätigung, dass auch sie nicht leicht zu überzeugen sind. Das ist normal und menschlich und gut so!
+Wie häufig ist Misinfo auf Social Media?
+
+Chancen digitale Werkzeuge: (siehe Notizen Folie unten)
+- Algorithmen die menschlichen/gesellschaftlichen Tendenzen entgegen wirken: 
+  - Sichtbarkeit der Lauten => moderate Menschen sichtbarer machen
+  - Übereinstimmunt & Überlappung zwischen Gesellschaftsgruppen und Meinungen
+  - Algorithmen, die Inhalte aus Medien mit hohen journalistischen Standards pushen (Quellenangaben, Herausgeber, Überprüfungen etc.)
+- Öffentlich finanzierte Social Media Platform für politische Diskussion: Platformen sind für Unterhaltung gemacht, nicht designt für guten Austausch
+  - Chris Bail: anonyme Diskussion mit Dems/Rep
+
+
+Zum nachlesen: Blog post
+
+
+
+## Emotionen & Falschinformation
+
+::: columns
+::: {.column width="50%"}
+```{r, out.width=330, fig.align='right'}
+knitr::include_graphics("https://www.statnews.com/wp-content/uploads/2020/03/AP_20081549688183.jpg")
+```
+:::
+
+::: {.column width="50%"}
+```{r,out.width=350, fig.align='left'}
+knitr::include_graphics("https://img.sparknews.funkemedien.de/242247716/242247716_1714749900_v16_9_1200.jpeg")
+```
+:::
+:::
+
+![](images/mig-29-1533260_1920.jpg){.absolute bottom="120" left="0" width="255"} ![](https://cdn.24.co.za/files/Cms/General/d/6003/3563fa82ca9443eea003f3ee25f49519.jpg){.absolute bottom="80" left="300" width="350"} ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/2021_storming_of_the_United_States_Capitol_09.jpg/1280px-2021_storming_of_the_United_States_Capitol_09.jpg){.absolute bottom="120" left="700" width="350"}
+
+::: notes
+Forschung zu Emotionen, auf Social Media Dann die Pandemie: Menschen haben alles mögliche geglaubt Krisenzeiten, empfänglich für Falschinfos Idee: Emotionen & Verbreitung Falschinformation zu erforschen
+:::
+
+## Emotion = Manipulation?
+
+-   Falsche & richtige COVID-19 Nachrichten
+-   Wie zutreffend ist diese Nachricht?
+-   Löst die Nachricht ein Gefühl aus?
+
+<center>
+
+::: columns
+::: {.column width="40%"}
+![](images/N15.PNG)
+:::
+
+::: {.column width="40%"}
+![](images/NR14.PNG)
+:::
+:::
+
+</center>
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler [2023](https://psyarxiv.com/udqms/)
+:::
+
+::: notes
+Beispiel dafür, dass menschen nicht so leicht manipulierbar sind Possible to do: ganze Graphik links
+:::
+
+## Wut bei falschen Nachrichten
+
+<center>
+
+::: columns
+::: {.column width="30%"}
+```{r, out.height=550}
+knitr::include_graphics("images/emo_diff_wut.svg")
+```
+:::
+
+::: {.column width="70%"}
+$\rightarrow$ Menschen mit <br> **schlechter & guter** Urteilsfähigkeit <br>
+
+```{r, out.height=350, fig.align='center'}
+knitr::include_graphics("images/curvi-linear_wut.svg")
+```
+:::
+:::
+
+</center>
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler [2023](https://psyarxiv.com/udqms/)
+:::
+
+## Warum waren die Menschen wütend?
+
+::: columns
+::: {.column width="55%"}
+```{r, out.height=550}
+knitr::include_graphics("images/WordShiftGraph.png")
+```
+:::
+
+::: {.column width="45%"}
+-   Beschreibung erster Gedanken:
+
+$\rightarrow$ Sie erkannten die falschen Nachrichten
+
+-   Ärger über Verbreitung
+-   Widerspruch zur Weltsicht
+
+<center>
+
+### Emotion $\neq$ Manipulation
+
+</center>
+:::
+:::
+
+::: footer
+Lühring\*, Shetty\*, Koschmieder, Waldherr, Garcia & Metzler [2023](https://psyarxiv.com/udqms/)
+:::
+
+::: notes
+Nicht alles was wir über Emotionen annehmen (Emotion macht irrational), stimmt so. Wirklichkeit ist komplexer. Studien auf social media: alle Emotionen zusammen, ohne Gründe für die Emotion zu erforschen So haben wir angefangen, Annahmen in Fragen zu stellen, und waren damit nicht allein
+:::
+
+## Was denken Sie?
+
+Umfrage Algorithmen, Social media, Rolle für Demokratie und Politik
+
+<iframe src="https://directpoll.com/r?XDbzPBd3ixYqg8KQZr69JTFFxSLn1qRPIzm1AiuiGgDkUoT" width="800px" height="600px">
+
+</iframe>
+
+::: notes
+Umfrage: Machen Sie sich Sorgen wegen Falschinformationen zum Klimawandel auf sozialen Medien? Glauben Sie, dass andere Menschen im Durschnitt leichter auf Falschinformationen hereinfallen als Sie? Bei polarisierenden Themen: Wie schwierig ist es normalerweise, wenn Sie versuchen jemanden von Ihrer Meinung zu überzeugen? Wie ist das, wenn jemand versucht Sie von etwas zu überzeugen, dass Sie nicht glauben? (Mehrere Antworten möglich) Wer ist verantworlich? Admin link: <https://directpoll.com/c?XDVhEtstuCXg965A0VIeZbzsdKDY0LkdJSsDS1> Results and voting link: shown at link above (on the slide)
+:::
+
+## Sie sind mit ihren Sorgen nicht allein
+
+![](https://assets.weforum.org/editor/responsive_large_webp_aeC_G_iMAyHfIYbpadABhxYrrTC3wvRnO45i1VeBOCo.webp){.r-stretch}
+
+## Social Media sind verantwortlich!
+
+![](https://cdn.pixabay.com/photo/2021/01/30/06/42/tiktok-5962992_1280.png){.absolute top="120" left="30" width="130"} ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/800px-X_logo_2023.svg.png){.absolute top="100" left="350" width="120"} 
+![](https://cdn.pixabay.com/photo/2018/02/01/18/39/trump-3123765_1280.png){.absolute top="120" left="550" width="200"} ![](https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg){.absolute top="100" right="10" width="130"} ![](https://cdn.pixabay.com/photo/2014/04/03/10/53/spiral-311612_1280.png){.absolute top="280" left="150" width="250"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1920px-YouTube_Logo_2017.svg.png){.absolute top="500" right="400" width="250"} ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/800px-2023_Facebook_icon.svg.png){.absolute top="300" right="90" width="130"}
+
+![](https://cdn.pixabay.com/photo/2017/09/08/03/51/corruption-2727571_1280.png){.absolute bottom="50" right="50" width="240"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Reddit_wordmark.svg/1920px-Reddit_wordmark.svg.png){.absolute bottom="100" left="50" width="200"}
+
+::: notes
+Ich mag mit ihnen heute anschauen, wie sich meine eigene Einschätzung zu diesen Themen langsam geändert hab, umso mehr ich darüber gelernt hab. Nuancierteres Bild Ziel: Hoffnung schaffen
+:::
+
+## Überzeugen im Alltag ist schwierig
+
+![](https://cdn.pixabay.com/photo/2021/12/01/19/53/business-6839039_1280.jpg){.absolute bottom="30" left="80" width="800"}
+
+# Wie passt das alles zusammen?
+
+::: notes
+Fehlinformation die aktuell größte Gefahr ist, andere fallen auf social media auf vieles rein, wir fallen selbst nicht auf Falschinformation herein, und auch tatsächlich selbst schwer zu überzeugen sind?
+:::
+
+## Warum ist überzeugen so schwierig?
+
+<center>
+
+### Menschen sind nicht dumm!
+
+![](https://cdn.pixabay.com/photo/2014/03/25/16/30/evolution-297234_1280.png){height="270"}
+
+</center>
+
+-   Was passiert mit leichtgläubigen Individuen?
+-   Voraussetzung für Kommunikation: <br> (im Durschnitt) Vorteile für Sender & Empfänger
+
+::: footer
+Mercier [2017](https://doi.org/10.1037/gpr0000111), [2020](https://press.princeton.edu/books/hardcover/9780691178707/not-born-yesterday); <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=297234">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=297234">Pixabay</a>
+:::
+
+::: notes
+-   Einfach alles glauben macht sehr verletzlich, Ausnutzung ist zu einfach: schlechteres Überleben und Fortpflanzungschancen - leichtgläubigkeit entwickelt sich nicht.
+:::
+
+## Ehrliche Kommunikationssignale
+
+![](https://cdn.pixabay.com/photo/2012/05/07/12/37/gazelle-48331_1280.png){.absolute left="150" top="90" height="270"} <br><br><br><br><br><br>
+
+![](https://cdn.pixabay.com/photo/2012/05/07/05/22/chimpanzee-48026_1280.png){.absolute left="600" top="90" height="270"}
+
+-   Grundzustand des Menschen ist **Skepsis**
+-   Fähigkeit zu Vertrauen & Kooperation: einzigartig
+-   Möglich, weil wir fähig sind, auf Wahrheit zu überprüfen
+
+::: footer
+Mercier [2017](https://doi.org/10.1037/gpr0000111), [2020](https://press.princeton.edu/books/hardcover/9780691178707/not-born-yesterday);
+:::
+
+::: notes
+-   Mechanismen: Plausibilität mit Erfahrung, Vertrauen zum Sender, sozialer Status, Verhalten in der Vergangenheit, Vertrauen andere?, gute Argumente
+
+Damit Kommunikation funktionieren kann, braucht eine Spezies die Fähigkeit, sie so zu verarbeiten, dass sie dem Empfänger etwas bringt. Wenn sie nichts bringt, entwickelt sie sich nicht. Deswegen haben viele Tiere keine komplexe Kommunikation und Kooperation die glauben einander einfach fast nichts.
+:::
+
+## Es ist wichtig, Menschen die Wahrheit zuzutrauen
+
+::: columns
+::: {.column width="50%"}
+![](images/kurz_angst_kurier.png)
+:::
+
+::: {.column width="50%"}
+![](images/kurz_angst_derstandard.png)
+
+-   Hat kurzfristig funktioniert
+-   Verlust des Vertrauens
+-   Transparenz notwendig
+:::
+:::
+
+## Was heißt das für Falschinformation?
+
+<center>
+
+::: columns
+::: column
+![](https://cdn.pixabay.com/photo/2014/04/02/11/03/idea-305335_1280.png){height="200"} ![](https://cdn.pixabay.com/photo/2020/05/28/12/52/corona-5231110_1280.png){height="200"}
+:::
+
+::: column
+<br> Ideen verbreiten sich nicht wie Viren
+:::
+:::
+
+</center>
+
+-   Überzeugungseffekte sind klein, "echte" Propaganda schwer
+-   Populismus: Aufgreifen, was Menschen bereits glauben
+-   Menschen glauben, was sie glauben, aus guten Gründen
+    -   Oft soziale Gründe (Beispiel: Bio, Klima, Atomkraft)
+
+::: footer
+[Mercier, 2020](https://www.jstor.org/stable/j.ctvn1tbqq);
+
+Images by <a href="https://pixabay.com/users/iximus-2352783/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5231110">iXimus</a> and <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=305335">Clker-Free-Vector-Images</a> from Pixabay
+:::
+
+## Fehlinformation auf sozialen Medien
+
+-   Kleiner Anteil der News: [1-6%](https://journalqd.org/article/view/3617) in 5 Studien von 2016-2019
+-   Minderheit der User teilt Großteil der Falschinformation:
+    -   1% User teilen 75% [(2018-2019, USA)](https://www.doi.org/10.1017/S0003055421000290)
+    -   5% User teilen 50% [(2016, USA)](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706)
+    -   2% machen 75% Website-Visits aus [(2022, Deutschland)](https://doi.org/10.1080/10584609.2024.2325426)
+-   Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
+
+![](https://www.lmz-bw.de/fileadmin/user_upload/Bilder/allgemeine_Bilder/hatespeech-GettyImages-1179353458-Roman-Didkivskyi.jpg){.absolute bottom="30" left="200" height="150"} ![](https://images.pexels.com/photos/3989901/pexels-photo-3989901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1){.absolute bottom="30" left="500" height="150"}
+
+::: footer
+Altay et al. [2022](https://journalqd.org/article/view/3617); Grinberg et  al., [2019](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706); Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290); Mosleh et al., [2024](https://doi.org/10.1093/pnasnexus/pgae111)
+:::
+
+## Misinformation von Oben
+
+-   Politiker teilen 20% der Fehlinformation.
+-   Diese [20% verursachen 69% des Engagement](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation) mit Fehlinformation auf Social Media.
+
+![](images/afd_mimikama.png)
+
+::: footer
+Brennen et al. [2020](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation); Mimikama [2024](https://www.mimikama.org/windenergie-in-frankreich-wirklich-gestoppt/)
+:::
+
+## Wer sind die extremen Stimmen?
+
+::: columns
+::: column
+![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"}
+
+-   [politisch Motivierte](https://www.doi.org/10.37016/mr-2020-119) mit extremen Einstellungen
+-   [Auch offline feindselig](https://www.doi.org/10.1017/S0003055421000885), online sichtbarer
+:::
+
+::: column
+<br>
+
+### Warum?
+
+-   Status & Privilegien Verlust
+-   Frustration im echten Leben
+-   Kein Vertrauen in Institutionen
+-   Sich nicht repräsentiert fühlen
+:::
+:::
+
+::: footer
+Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119); Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885)
+:::
+
+::: notes
+-   Reale Probleme
+    -   Geschlechterkampf
+    -   Autos als Status Symbole
+    -   Globalisierung
+    -   Ökonomische Ungleichheit [Wohnungsmarkt](https://www.semafor.com/newsletter/04/30/2024/semafor-flagship-blood-and-soil?utm_source=newslettershare&utm_medium=flagship&utm_campaign=flagshipnumbered5#f)
+:::
+
+## Digitale Echokammern & Filter Bubbles
+
+::: columns
+::: {.column width="30%"}
+![](https://cdn.pixabay.com/photo/2017/01/13/19/40/family-1978106_1280.png)
+:::
+
+::: {.column width="70%"}
+-   Echokammern: offline [stärker](https://doi.org/10.1093/qje/qjr044) als online
+-   [Ausmaß](https://www.nature.com/articles/s41586-023-06297-w) variiert stark
+    -   **20.6%** Facebook User: **75%** der Posts aus gleichgesinnten Quellen
+    -   **23.1%**: unter **25%** der Posts
+-   Algorithmen: kleiner (6%) & viel weniger starker [Einfluss](https://www.science.org/doi/full/10.1126/science.aaa1160) als soziales Netzwerk
+-   [Gruppen & Pages](https://www.science.org/doi/10.1126/science.ade7138): stark segregiert
+:::
+:::
+
+::: footer
+Gentzkow & Shapiro, [2011](https://doi.org/10.1093/qje/qjr044); Bakshy et al. [2015](https://www.science.org/doi/full/10.1126/science.aaa1160); Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w); Gonzalez-Bailon et al., [2023](https://www.science.org/doi/10.1126/science.ade7138)
+:::
+
+::: notes
+-   Kontakt mit andersartigen Sichtweisen online Echo Kammer, Lücke zwischen Conservativ/Liberal im Besuchen konservativer Seiten: (7.5%, Gentzkow Shapiro 2011), Gonzalez Bailon: 35%
+-   Unterschied Rep./Dem. für Rep. Inhalte (USA): [7.5%](https://doi.org/10.1093/qje/qjr044)-[35%](https://www.science.org/doi/10.1126/science.ade7138)
+:::
+
+## Einfluss von Algorithmen
+
+Facebook [Studie](https://www.nature.com/articles/s41586-023-06297-w): Down-ranking von gleichgesinnten Posts
+
+![](images/Nyhan_2023.svg)
+
+::: footer
+Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w)
+:::
+
+## Algorithmus: Down-Ranking gleichgesinnter Quellen
+
+![](images/Nyhan_2023_results_Fig3_a_d.svg){.r-stretch}
+
+-   Ähnliche Ergebnisse in 2 weiteren Studien: <br> [Kein Algorithmus](https://www.science.org/doi/full/10.1126/science.abp9364) oder [keine Re-Shares](https://www.science.org/doi/10.1126/science.add8424)
+
+::: footer
+Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w); Guess et al., [2023](https://www.science.org/doi/full/10.1126/science.abp9364); Guess et al., [2023](https://www.science.org/doi/10.1126/science.add8424)
+:::
+
+::: notes
+Schimpfworte etc. Reduction: from 0.034% to 0.030% for content with slur words from 3.15% to 2.81% for uncivil content from 0.76% to 0.55% for content from misinformation repeat offenders
+:::
+
+## Algorithmen & Radikalisierungspiralen?
+
+-   Einfluss von [Google's Algorithmus](https://www.nature.com/articles/s41586-023-06078-5) auf Ergebnisse: Suchworte haben viel stärkeren Effekt
+
+![](images/google.png)
+
+-   YouTube: Algorithmus führt zu [weniger radikalem Konsum](https://www.pnas.org/doi/abs/10.1073/pnas.2313377121)
+-   Klicks für radikale Videos: von [außerhalb der Platform](https://doi.org/10.1177/1940161220964767)
+-   [User Präferenzen](https://www.pnas.org/doi/abs/10.1073/pnas.2101967118) bestimmen Views von radikalen Videos
+
+$\rightarrow$ User suchen aktiv gleichgesinnte Inhalte
+
+::: footer
+Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Hosseinmardi et al., [2024](https://www.pnas.org/doi/abs/10.1073/pnas.2313377121); Hosseinmardi et al., [2021](https://www.pnas.org/doi/abs/10.1073/pnas.2101967118); Munger & Philipps, [2022](https://doi.org/10.1177/1940161220964767)
+:::
+
+# Was ist die Rolle von Social Media?
+
+## Soziale Dynamik auf Social Media
+
+::: columns
+::: {.column width="30%"}
+![](https://cdn.pixabay.com/photo/2022/01/07/01/21/girl-6920625_1280.jpg)
+
+<br> ![](https://images.fineartamerica.com/images-medium-large/chimpanzee-alpha-male-western-uganda-suzi-eszterhas.jpg)
+:::
+
+::: {.column width="70%"}
+-   Soziale Identitäten ausprobieren
+-   Uns selbst und andere verstehen
+-   Mehr Kontakt mit andersartigen Menschen ohne Kontextverständnis
+
+### Suche nach sozialem Status
+
+-   Keine Konsequenzen von aggressivem Verhalten
+-   Wettbewerb von Gruppen
+:::
+:::
+
+::: footer
+Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057); Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Brady et al. [2020](https://doi.org/10.1177/1745691620917336)
+:::
+
+## Social Media verzerren die Wirklichkeit
+
+::: columns
+::: {.column width="30%"}
+![](images/bail_book.avif){width="300"}
+:::
+
+::: {.column width="70%"}
+-   Extreme Meinungen sind sichtbar
+-   Status für politisch Motivierte
+    -   Bsp links: Doomsday, Degrowth
+    -   Bsp rechts: Windkraft Proteste, Armut
+-   Moderate melden sich nicht zu Wort
+    -   Bsp: Klimawandel + Wirtschaft
+
+### Scheinbare Polarisierung
+
+$\rightarrow$ Wahrgenommene politische Spaltung verstärkt die **emotionale Polarisierung**
+:::
+:::
+
+::: footer
+Törnberg [2022](https://www.pnas.org/doi/10.1073/pnas.2207159119); Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism)
+:::
+
+## Schweizer Politiker auf Facebook
+
+![](images/switzerland.svg)
+
+::: footer
+Maitra et al., [2023](www.doi.org/10.51685/jqd.2023.008)
+:::
+
+-   Populistische Partei ist extrem überrepräsentiert
+
+# Was tun?
+
+## 2 Prinzipien
+
+-   Menschen sind nicht dumm!
+    -   [**Argumente** wirken](https://www.jstor.org/stable/j.ctvn1tbqq), aber müssen dort ansetzen, wo die guten, oft sozialen Gründe für Überzeugungen liegen
+-   **Vertrauen** stärken und nicht verspielen: Transparenz
+
+![](https://cdn.pixabay.com/photo/2013/09/28/10/57/smart-187696_960_720.jpg){.absolute bottom="50" left="550" height="250"} ![](https://cdn.pixabay.com/photo/2017/06/27/11/48/team-spirit-2447163_1280.jpg){.absolute bottom="50" left="60" height="250"}
+
+## Individuelle Ebene
+
+-   Verzerrung & Scheinbare Polarisierung sichtbar machen
+-   Übereinstimmung & moderate Meinungen sichtbar machen
+-   [Kleine Schritte](https://doi.org/10.1093/poq/nfy036) in Richtung neue Sichtweisen machen
+
+![](https://cdn.pixabay.com/photo/2021/04/13/02/38/prism-6174502_1280.jpg){.absolute bottom="50" left="50" height="250"}
+
+![](https://cdn.pixabay.com/photo/2012/04/28/19/06/stairs-44070_1280.png){.absolute bottom="50" left="600" height="250"}
+
+::: footer
+Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism)
+:::
+
+## Regulation & Design von Social Media
+
+-   EU Digital Services Act: Zugang zu Forschungsdaten
+    -   Transparenz Algorithmen & Content Moderation
+-   Social Media Platformen für bestimmte Zwecke designen
+-   Öffentlich finanzierte Platform für politischen Diskurs?
+    -   [Anonymität depolarisiert](https://osf.io/cwgu5): Ideen vor Identität
+    -   Farb-Buttons, die Postingverhalten anderer anzeigen
+    -   Algorithmen, die [Übereinstimmung betonen](http://arxiv.org/abs/2310.05984)
+    -   Algorithmen, die [kleine Schritte](https://doi.org/10.1093/poq/nfy036) in Sichtweisen fördern
+
+::: footer
+Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057); Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Combs et al. [2022](https://osf.io/cwgu5); <br> Törnberg et al., [2023](http://arxiv.org/abs/2310.05984); Wojcik et al., [2022](http://arxiv.org/abs/2210.15723)
+:::
+
+::: notes
+Design - Kleinere Sub-Communities für verschiedene Zwecke - Identität verifizieren bei Registrierung - Vertrauenswürdige Quellen boosten - [User Präferenzen berücksichtigen](https://doi.org/10.1177/1745691623119039) - Nachfrage & Tipps vor dem Posten
+
+User wollen keine polarisierenden Posts, sondern positive, korrekte, nuancierte und etwas lernen Frikition: Zeithindernis Toxisch: Empathie Prompts Polarisierend: Werte erinnern - erreicht die andere Seite besser
+:::
+
+## Politik & Gesellschaft
+
+-   Eliten: starker Effekt auf öffentliche Meinung
+-   Politisch aktiv bleiben/werden
+
+### Vertrauen gewinnen
+
+-   Transparente Kommunikation von Politikern & Experten
+-   Reale Probleme lösen
+    -   [Ungleichheit verringern](https://www.thalia.at/shop/home/artikeldetails/A1066136858)
+    -   vertrauenswürdige Institutionen
+    - Wirtschaftslage, Bildung, ...
+
+::: footer
+Brennen et al., [2020](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation); Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057); Turchin [2023](https://www.thalia.at/shop/home/artikeldetails/A1066136858); Ritchie [2023](https://www.thalia.at/shop/home/artikeldetails/A1069948591)
+:::
+
+::: notes
+Kritik der eigenen Seite ist glaubenswürdig: opinion leaders: ch 8 ref 33, resonate most with the other side if they criticize their own party most often
+:::
+
+## Zusammenfassung
+
+-   Reale Probleme lösen & transparente Erklärungen
+
+-   Social Media: treibt scheinbare Polarisierung an
+
+-   Soziale Faktoren wirken stärker als Algorithmen & Co
+
+-   Menschen sind nicht dumm!
+
+    -   Ernst nehmen, ihre Gründe verstehen, und ansprechen.
+
+## Für Neugierige
+
+### Bücher
+
+::: columns
+::: {.column width="33%"}
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("images/ritchie_book_deutsch.jpg")
+```
+
+[Ritchie, 2023](https://www.thalia.at/shop/home/artikeldetails/A1069948591) Nachhaltigkeit & Klimawandel
+:::
+
+::: {.column width="33%"}
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("images/mercier_book.jpeg")
+```
+
+[Mercier, 2020](https://www.jstor.org/stable/j.ctvn1tbqq) Falschinformation & Propaganda
+:::
+
+::: {.column width="33%"}
+```{r, echo=FALSE, out.width=200}
+knitr::include_graphics("images/bail_book.avif")
+```
+
+[Bail, 2021](https://www.chrisbail.net/nm) Polarisierung & Social Media
+:::
+:::
+
+##  {.smaller}
+
+::: columns
+::: {.column width="50%"}
+### Für Zwischendurch
+
+[Kurzgesagt Video](https://youtu.be/fuFlMtZmvY0?si=lU02lQlj1J8OrSKG)
+
+```{r}
+knitr::include_graphics("images/in_a_nutshell.png")
+```
+
+[Podcast](https://www.derstandard.at/story/3000000218043/wahrheit-gegen-luege-die-psychologie-hinter-fake-news)
+
+```{r}
+knitr::include_graphics("images/derstandard_podcast.png")
+```
+:::
+
+::: {.column width="50%"}
+[Singh, 2024](https://www.newyorker.com/magazine/2024/04/22/dont-believe-what-theyre-telling-you-about-misinformation) (The New Yorker)
+
+```{r, fig.align='right'}
+knitr::include_graphics("images/singh2024.png")
+```
+
+[Williams, 2024](https://www.conspicuouscognition.com/p/ai-based-disinformation-is-probably) (University of Sussex)
+
+```{r, fig.align='right'}
+knitr::include_graphics("images/williams2024.png")
+```
+:::
+:::
+
+::: footer
+:::
+
+# Danke für Ihre Aufmerksamkeit!
+
+::: notes
+## Notes {visibility="hidden"}
+
+### Was ist Falschinformation?
+
+
+## Politisches & Nachrichten Wissen {visibility="hidden"}
+
+-   Social Media haben [positiven Effekt](https://www.nature.com/articles/s41562-022-01460-1)
+-   Wissen sinkt nach 4 Wochen [Facebook deaktivieren](https://pubs.aeaweb.org/doi/10.1257/aer.20190658)
+
+![](images/allcott2020.svg){width="300"}
+
+::: footer
+Allcott et al., [2020](https://pubs.aeaweb.org/doi/10.1257/aer.20190658); Diehl et al., [2021](https://doi.org/10.1093/ijpor/edz040); Asimovic et al. [2021](https://www.pnas.org/doi/10.1073/pnas.2022819118)
+:::
+
+::: notes
+nach Echokammern slide
+:::
+
+## Österreich Polarisierung Klima {visibility="hidden"}
+
+![](images/2023_zandonella.png)
+
+::: footer
+Zandonella & Lux [2023](https://www.sora.at/fileadmin/downloads/projekte/2023_FORESIGHT_Praesentation_Hintergrundgespraech_Polarisierung.pdf)
+:::
+
+
+### Leben wir in einem Falschinformationszeitalter?
+
+-   Verschwörungsdenken hat sich nicht erhöht
+-   Keine Evidenz für mehr Falschinformationen [read](https://www.slowboring.com/p/misinformation-myth)
+-   Social Media erhöht politisches Wissen (ref algos, facebook abstinence Asimovic etc)
+    -   Algorithmen abdrehen: weniger politisches Wissen
+
+Uscinkski et al. [2022](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270429); Nyhan [2020](https://www.aeaweb.org/articles?id=10.1257/jep.34.3.220);
+
+### Warum glauben Menschen dann so viele falsche Dinge?
+
+-   Intuitive und reflektive Überzeugungen
+    -   soziale Funktion
+-   Medien Bias (conscipious cognition blog): negative überraschende News repräsentieren nicht die Wirklichkeit
+
+### AI und Falschinformation/Propaganda
+
+-   Engpass Aufmerksamkeit
+-   so viel Info im Netz
+-   Personalisiert:
+    -   so viel besser als Menschen kann AI nicht werden, etwas Raum ist hier noch
+    -   Menschen haben nicht so viel Zeit/Aufmerksamkeit - wie macht man das at scale? So viele kämpfen um ihre Aufmerksamkeit
+    -   warum sollten die Bösen da einen Vorteil haben?
+    -   sehr personalisiert: kann man nicht weiter teilen - wir wollen mit anderen über Content reden können
+-   AI hilft auch der guten Seite
+
+:::
