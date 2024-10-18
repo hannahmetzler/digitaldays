@@ -134,7 +134,7 @@ Altay et al. [2022](https://journalqd.org/article/view/3617)
 ## Wer ist die polarisierende Minderheit?
 
 :::: columns
-::: column
+::: {.column width="49%"}
 ![](images/storm_capitol.jpg)
 <!-- ![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"} -->
 
@@ -142,16 +142,16 @@ Altay et al. [2022](https://journalqd.org/article/view/3617)
 -  [Auch offline feindselig](https://www.doi.org/10.1017/S0003055421000885)
 :::
 
-::: column
+::: {.column width="49%"}
 ::: {.fragment fragment-index=2}
-<br>
+<br><br><br>
 
 ### Warum?
 
--   Frustration im echten Leben
--   Kein Vertrauen in Institutionen
--   Nicht repräsentiert
--   Status & Privilegien Verlust
+$\uparrow$    Frustration <br> 
+$\downarrow$ Vertrauen in Institutionen <br> 
+$\downarrow$    Nicht repräsentiert fühlen <br>
+$\downarrow$   Status & Privilegien Verlust
 :::
 :::
 
@@ -310,7 +310,7 @@ scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung 
 
 ### Social Media, Algorithmen & Co
 
-- Soziale Faktoren wirken stärker als Algorithmen & Co
+- Soziale Faktoren wirken stärker als Algorithmen
 - Soziale Dynamik treibt scheinbare Polarisierung an
 - Richtiges Design kann einen Beitrag leisten!
 
