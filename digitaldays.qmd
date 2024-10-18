@@ -140,7 +140,8 @@ Altay et al. [2022](https://journalqd.org/article/view/3617)
 
 ::: columns
 ::: column
-![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"}
+![](images/storm_capitol.jpg)
+<!-- ![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"} -->
 
 -  [Politisch Motivierte](https://www.doi.org/10.37016/mr-2020-119) mit extremen Einstellungen
 -  [Auch offline feindselig](https://www.doi.org/10.1017/S0003055421000885)
