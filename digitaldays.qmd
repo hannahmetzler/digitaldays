@@ -3,7 +3,6 @@ lang: de
 format: 
   revealjs:
     footer: https://hannahmetzler.eu/digitaldays
-    seal: false
     transition: 'slide'
     ## Defines the theme of the presentation, both version and style
     theme: [default, custom.scss]
@@ -90,31 +89,61 @@ Admin link: https://directpoll.com/c?XDVhEtbfEuF4fOXzZmc9jSuEzgZuMh6zfoEZoN
 Results and voting link: shown at link above (on the slide)
 :::
 
-## Fehlinformation als Symptom
+---
 
+### Fehlinformation: Symptom der Polarisierung
+
+<br>
+
+:::: columns
+
+::: {.column width="18%"}
+![](https://cdn.pixabay.com/photo/2014/03/24/13/40/courthouse-293963_1280.png)
+:::
+::: {.column width="18%"}
+![](https://cdn.pixabay.com/photo/2013/07/13/09/36/megaphone-155780_1280.png)
+:::
+::: {.column width="25%"}
+![](images/hunger-6255733_1280.webp)
+<!-- https://cdn.pixabay.com/photo/2021/05/15/13/20/hunger-6255733_1280.png -->
+:::
+::: {.column width="12%"}
+![](https://cdn.pixabay.com/photo/2017/01/31/00/03/currency-2022440_1280.png)
+:::
+::: {.column width="23%"}
+![](https://cdn.pixabay.com/photo/2016/10/08/04/25/laptop-1723059_1280.png)
+:::
+::::
+- Vertrauen in Institutionen
+- Polarisierung der Eliten
+- Kleine extreme Minderheit teilt & liest ~80% der Fake News
+  - [0.1%](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706), 
+[1%](https://www.doi.org/10.1017/S0003055421000290), [2%](https://doi.org/10.1080/10584609.2024.2325426), 
+[2107 US Wähler](https://www.science.org/doi/10.1126/science.adl4435) (Wahl 2020)
+
+::: notes
 - Nur 1-6% aller Nachrichten
 - Die meisten Menschen lesen keine politischen Nachrichten.
+- Mehr [Korruption](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919) => Mehr Verschwörungsmythen
+- Misinformation von [Oben](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation) hat großen Einfluss
 
-::: {.fragment fragment-index=2}
-- Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
-- Kleine extreme Minderheit teilt den Großteil: [1%](https://www.doi.org/10.1017/S0003055421000290), [5%](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706), [2%](https://doi.org/10.1080/10584609.2024.2325426)
-- Misinformation von [Oben](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation)
-
-![](https://www.lmz-bw.de/fileadmin/user_upload/Bilder/allgemeine_Bilder/hatespeech-GettyImages-1179353458-Roman-Didkivskyi.jpg){.absolute bottom="30" left="200" height="150"} ![](https://images.pexels.com/photos/3989901/pexels-photo-3989901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1){.absolute bottom="30" left="500" height="150"}
 :::
 
 ::: footer
-Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w); Altay et al. [2022](https://journalqd.org/article/view/3617); Grinberg et  al., [2019](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706); Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290); Mosleh et al., [2024](https://doi.org/10.1093/pnasnexus/pgae111); 
+Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w);
+Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290);
+Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119); 
+Altay et al. [2022](https://journalqd.org/article/view/3617)
 :::
 
-## Wer sind die extremen Stimmen?
+## Wer ist die Minderheit?
 
 ::: columns
 ::: column
 ![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"}
 
--   [Politisch Motivierte](https://www.doi.org/10.37016/mr-2020-119) mit extremen Einstellungen
--   [Auch offline feindselig](https://www.doi.org/10.1017/S0003055421000885), online sichtbarer
+-  [Politisch Motivierte](https://www.doi.org/10.37016/mr-2020-119) mit extremen Einstellungen
+-  [Auch offline feindselig](https://www.doi.org/10.1017/S0003055421000885)
 :::
 
 ::: column
@@ -129,9 +158,12 @@ Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w); Altay e
 :::
 :::
 
+-  [USA 2020 Facebook](https://www.science.org/doi/10.1126/science.adl4435): Republikaner, 60% Frauen, ~60J., weiß
+
 ::: footer
-Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119); Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885);
-Add Lazar
+Baribi-Barto et al .[2024](https://www.science.org/doi/10.1126/science.adl4435);
+Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885);
+Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111)
 :::
 
 ::: notes
@@ -140,6 +172,8 @@ Add Lazar
     -   Autos als Status Symbole
     -   Globalisierung
     -   Ökonomische Ungleichheit [Wohnungsmarkt](https://www.semafor.com/newsletter/04/30/2024/semafor-flagship-blood-and-soil?utm_source=newslettershare&utm_medium=flagship&utm_campaign=flagshipnumbered5#f)
+    - Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
+    
 :::
 
 
@@ -226,52 +260,50 @@ Törnberg [2022](https://www.pnas.org/doi/10.1073/pnas.2207159119); Bail [2021](
 Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057)
 :::
 
-## Wie könnten Algorithmen helfen?
+## Wie können digitale Tools helfen? 
 
-- [Übereinstimmung zwischen Gruppen betonen](http://arxiv.org/abs/2310.05984)
-- [In kleinen Schritten](https://doi.org/10.1093/poq/nfy036) zum Verständnis der anderen Sichtweisen
+### Algorithmen
+
+- Übereinstimmung zwischen Gruppen hervorheben ([1](http://arxiv.org/abs/2210.15723), [2](http://arxiv.org/abs/2310.05984))
+- Perspektivenwechsel: [Kleine Schritte](https://doi.org/10.1093/poq/nfy036) fördern
 - Vertrauenswürdige Quellen boosten
 
+### Social Media 
+
+- [Design](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism) für Unterhaltung vs. nuancierte politische Diskussion
+- Randgruppen erreichen
+
 ::: footer
-Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Combs et al. [2022](https://osf.io/cwgu5); Törnberg et al., [2023](http://arxiv.org/abs/2310.05984); Wojcik et al., [2022](http://arxiv.org/abs/2210.15723)
+Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057);
+Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Combs et al. [2022](https://osf.io/cwgu5); 
+Törnberg et al., [2023](http://arxiv.org/abs/2310.05984); Wojcik et al., [2022](http://arxiv.org/abs/2210.15723)
 :::
 
 ::: notes
 scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung hervorheben
-:::
-
-## Wie könnten Social Media helfen?
-
--   Unterhaltung vs. politischer Diskurs
--   Öffentlich finanzierte Platformen?
-
-
-::: footer
-Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057); Bail [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); 
-:::
-
-::: notes
-    -   [Anonymität depolarisiert](https://osf.io/cwgu5): Ideen vor Identität
-    -   Farb-Buttons, die Postingverhalten anderer anzeigen
-Design - Kleinere Sub-Communities für verschiedene Zwecke - Identität verifizieren bei Registrierung - Vertrauenswürdige Quellen boosten - [User Präferenzen berücksichtigen](https://doi.org/10.1177/1745691623119039) - Nachfrage & Tipps vor dem Posten
-
-User wollen keine polarisierenden Posts, sondern positive, korrekte, nuancierte und etwas lernen Frikition: Zeithindernis Toxisch: Empathie Prompts Polarisierend: Werte erinnern - erreicht die andere Seite besser
-
-
+-   [Anonymität depolarisiert](https://osf.io/cwgu5): Ideen vor Identität
+-   Farb-Buttons, die Postingverhalten anderer anzeigen
+- Vertrauenswürdige Quellen boosten 
+- [User Präferenzen berücksichtigen](https://doi.org/10.1177/1745691623119039) - Nachfrage & Tipps vor dem Posten
 :::
 
 ## Zusammenfassung
 
 ### Vertrauen schaffen durch
 
-- Lösen realer gesellschaftlicher Probleme 
-- Transparenz
+- Lösen realer gesellschaftlicher Probleme
+- Transparente und vertrauenswürdige Institutionen
 
-### Social Media
+### Social Media, Algorithmen & Co
 
 - Soziale Faktoren wirken stärker als Algorithmen & Co
 - Soziale Dynamik treibt scheinbare Polarisierung an
 - Richtiges Design kann einen Beitrag leisten!
+
+::: notes
+Institutionen: democratische, Medizin, Bildung, Wissenschaft
+Probleme: Armut, Migration, Klimawandel, Bildung, Globalisierung, Rassismus, ...
+:::
 
 
 ## Für Neugierige {.smaller}
@@ -389,8 +421,6 @@ Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, i
 
 Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen so sind, was sie denken zu Social Media, Algo, Fehlinfo, Manipulierbarkeit von Menschen. 
 2) Live Fragen
-
-
 
 3) In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
 
