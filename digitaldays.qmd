@@ -89,14 +89,9 @@ Admin link: https://directpoll.com/c?XDVhEtbfEuF4fOXzZmc9jSuEzgZuMh6zfoEZoN
 Results and voting link: shown at link above (on the slide)
 :::
 
----
-
-### Fehlinformation: Symptom der Polarisierung
-
-<br>
+## Fehlinformation als Symptom gesellschaftlicher Polarisierung
 
 :::: columns
-
 ::: {.column width="18%"}
 ![](https://cdn.pixabay.com/photo/2014/03/24/13/40/courthouse-293963_1280.png)
 :::
@@ -114,8 +109,8 @@ Results and voting link: shown at link above (on the slide)
 ![](https://cdn.pixabay.com/photo/2016/10/08/04/25/laptop-1723059_1280.png)
 :::
 ::::
-- Vertrauen in Institutionen
-- Polarisierung der Eliten
+- Vertrauen in Institutionen ([1](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919))
+- Polarisierung der Eliten ([2](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation))
 - Kleine extreme Minderheit teilt & liest ~80% der Fake News
   - [0.1%](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706), 
 [1%](https://www.doi.org/10.1017/S0003055421000290), [2%](https://doi.org/10.1080/10584609.2024.2325426), 
@@ -136,9 +131,9 @@ Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119);
 Altay et al. [2022](https://journalqd.org/article/view/3617)
 :::
 
-## Wer ist die Minderheit?
+## Wer ist die polarisierende Minderheit?
 
-::: columns
+:::: columns
 ::: column
 ![](images/storm_capitol.jpg)
 <!-- ![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"} -->
@@ -148,6 +143,7 @@ Altay et al. [2022](https://journalqd.org/article/view/3617)
 :::
 
 ::: column
+::: {.fragment fragment-index=2}
 <br>
 
 ### Warum?
@@ -159,7 +155,13 @@ Altay et al. [2022](https://journalqd.org/article/view/3617)
 :::
 :::
 
+::::
+
+::: {.fragment fragment-index=1}
 -  [USA 2020 Facebook](https://www.science.org/doi/10.1126/science.adl4435): Republikaner, 60% Frauen, ~60J., weiß
+:::
+
+
 
 ::: footer
 Baribi-Barto et al .[2024](https://www.science.org/doi/10.1126/science.adl4435);
@@ -178,24 +180,28 @@ Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111)
 :::
 
 
-## Einfluss von Algorithmen
+## Einfluss von Algorithmen?
 
 Facebook & Instagram [Studien](https://www.nature.com/articles/s41586-023-06297-w): USA, Wahlen 2020 <br>
 Algorithmus abgedreht oder verändert
 
-
-![](images/Nyhan_2023.svg)
+<!-- ![](images/Nyhan_2023.svg){.r-stretch} -->
+```{r, fig.align='right'}
+knitr::include_graphics('images/Nyhan_2023.svg')
+```
 
 ::: footer
 Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w)
 :::
 
 
-## Down-Ranking gleichgesinnter Quellen
+## Effekte des Algorithmus abdrehen
 
-![](images/Nyhan_2023_results_Fig3_a_d.svg){.r-stretch}
+![](images/guess2023_fig3_attitude_knowledge_effects.svg)
 
-Ähnliche Ergebnisse wenn [kein Algorithmus](https://www.science.org/doi/full/10.1126/science.abp9364)/ [keine Re-Shares](https://www.science.org/doi/10.1126/science.add8424)
+<!-- ![](images/Nyhan_2023_results_Fig3_a_d.svg){.r-stretch} -->
+
+Ähnliche Ergebnisse mit [anderem Algorithmus](https://www.science.org/doi/full/10.1126/science.abp9364)/[ohne Re-Shares](https://www.science.org/doi/10.1126/science.add8424)
 
 ::: footer
 Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w); Guess et al., [2023](https://www.science.org/doi/full/10.1126/science.abp9364); Guess et al., [2023](https://www.science.org/doi/10.1126/science.add8424)
@@ -238,12 +244,15 @@ Allcott et al. [2024](https://www.pnas.org/doi/10.1073/pnas.2321584121); Allcott
 
 ## Social Media verzerren die Wirklichkeit
 
+<br> 
+
 ::: columns
 ::: {.column width="30%"}
 ![](images/bail_book.avif){width="300"}
 :::
 
 ::: {.column width="70%"}
+
 - Extreme Meinungen sind sichtbar
 - Moderate melden sich nicht zu Wort
 - Konflikte bekommen Aufmerksamkeit, Übereinstimmung nicht
@@ -262,6 +271,8 @@ Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057)
 :::
 
 ## Wie können digitale Tools helfen? 
+
+<br> 
 
 ### Algorithmen
 
@@ -289,6 +300,8 @@ scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung 
 :::
 
 ## Zusammenfassung
+
+<br> 
 
 ### Vertrauen schaffen durch
 
