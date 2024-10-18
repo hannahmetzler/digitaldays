@@ -17,13 +17,12 @@ format:
 editor: source
 ---
 
-## Polarisierung durch Algorithmen? 
 
-### Demokratie und Meinungsbildung im digitalen Zeitalter <br> -  Mythen auf dem Prüfstand
+## Polarisierung durch Algorithmen? <br> Demokratie und Meinungsbildung im digitalen Zeitalter
+### Mythen auf dem Prüfstand
 
- <br>
- 
-**Mag. Dr. Hannah Metzler** <br> Complexity Science Hub & Medizinische Universität Wien <br>
+<br>
+**Mag. Dr. Hannah Metzler** <br> Complexity Science Hub & Medizinische Universität Wien
 
 [Digital Days 2024](https://www.digitalcity.wien/digital-days-2024/)
 
