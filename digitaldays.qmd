@@ -66,9 +66,11 @@ knitr::include_graphics("https://img.sparknews.funkemedien.de/242247716/24224771
 ![](images/mig-29-1533260_1920.jpg){.absolute bottom="120" left="0" width="255"} ![](https://cdn.24.co.za/files/Cms/General/d/6003/3563fa82ca9443eea003f3ee25f49519.jpg){.absolute bottom="80" left="300" width="350"} ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/2021_storming_of_the_United_States_Capitol_09.jpg/1280px-2021_storming_of_the_United_States_Capitol_09.jpg){.absolute bottom="120" left="700" width="350"}
 
 ::: notes
-Fehlinformation Riesen Thema, so haben wir begonnen, Fehlinformation, Social Media, Algorithmen zu erforschen. 
-Neu in dem Gebiet: ausgegangen von den üblichen geselschaftlichen Annahmen.
-Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, in Frage stellen, ich war oft sehr überrascht. Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
+- Start Forschung: Fehlinformation, Social Media, Algorithmen
+- eu in dem Gebiet: übliche Annahmen
+- viele Annahmen ändern, in Frage stellen
+- oft überrascht. 
+Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
 :::
 
 ## {.center}
@@ -78,7 +80,7 @@ Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, i
 </iframe>
 
 ::: notes
-Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen so sind, was sie denken zu Social Media, Algo, Fehlinfo, Manipulierbarkeit von Menschen. 
+Als 1. würde mich deswegen interessieren, was den ihre aktuellen Annahmen zu diesen Themen sind. 
 
 Umfrage: Machen Sie sich Sorgen um die Demokratie wegen Fehlinformationen in den sozialen Medien? Ja/Nein
 Machen Sie sich sorgen wegen der Verbreitung von Fehlinformation über Social Media? Ja/Nein
@@ -120,6 +122,7 @@ Results and voting link: shown at link above (on the slide)
 ::::
 
 - [Echokammern](https://www.pnas.org/content/115/37/9216) auflösen & [Algorithmus](https://www.science.org/doi/full/10.1126/science.abp9364) abdrehen
+- Würde das wirken?
 
 ## Einfluss von Algorithmen
 
@@ -137,7 +140,9 @@ Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w)
 
 
 ::: notes
-4) Effekte von Algorithmen gibt es, aber sie sind klein. Soziale Faktoren spielen eine viel größere Rolle bei Meinungsbildung. Ich mag Ihnen einzelne Studien zeigen dazu. 
+- Studien der letzten Jahre haben meine eigenen Annahmen in Frage gestellt, 
+- ein nuanciertes Bild gezeigt. 
+- Ich mag Ihnen einzelne Studien zeigen dazu.
 :::
 
 ## Effekte des Algorithmus abdrehen
@@ -146,19 +151,21 @@ Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w)
 
 <!-- ![](images/Nyhan_2023_results_Fig3_a_d.svg){.r-stretch} -->
 
-Keine Effekte auf Meinungen & gefühlte Spaltung
+$\rightarrow$ Keine Effekte auf Meinungen & gefühlte Polarisierung
 
 ::: footer
 Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w); Guess et al., [2023](https://www.science.org/doi/full/10.1126/science.abp9364); Guess et al., [2023](https://www.science.org/doi/10.1126/science.add8424)
 :::
 
 ::: notes
-Wichtig, nicht zu sagen: algorithmus hat keinen Effekt. Dafür wissen wir viel zu vieles nicht. 
-Was wenn es Algorithmen nie gegeben hätte, wenn wir sie für 3 Jahre lang für ein ganzes land abdrehen könnten, wenn ein Land noch nicht polarisiert ist...
+- Was heißt das alles nicht? 
+- nicht KEIN Effekt
+- nie gegeben hätte, 
+- 3 Jahre lang für ein ganzes Land 
+- Land noch nicht polarisiert
+- Aber: nicht allmächtig
+- Abdrehen löst unsere Probleme nicht. 
 
-Was wir sagen können: Algo nicht so allmächtig wie wir denken. Abdrehen löst unsere Probleme nicht. 
-
-Balancierte Perspektive auf Rolle von Algorithmen. Können menschliche Tendenzen verstärken, lernen aus menschlichen Daten. Wir müssen aber auch auf die sozialen/menschlichen Faktoren achten.
 :::
 
 ## Der Faktor Mensch
@@ -178,7 +185,7 @@ Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Ho
 :::
 
 ::: notes
-Wie kann das sein?
+- Wie kann das sein?
 - Menschliche Tendenz zur Gruppenbildung/Bestätigung der eigenen Meinung. 
 :::
 
@@ -213,16 +220,19 @@ $\downarrow$   Status & Privilegien Verlust
 ::: footer
 Baribi-Barto et al .[2024](https://www.science.org/doi/10.1126/science.adl4435);
 Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885);
-Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290)
+Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290);
+Eady et al. [2023](https://www.nature.com/articles/s41467-022-35576-9); 
+Bail et al. [2019](https://www.pnas.org/doi/full/10.1073/pnas.1906420116)
 :::
 
 ::: notes
--   Reale Probleme
-    -   Geschlechterkampf
-    -   Autos als Status Symbole
-    -   Globalisierung
-    -   Ökonomische Ungleichheit [Wohnungsmarkt](https://www.semafor.com/newsletter/04/30/2024/semafor-flagship-blood-and-soil?utm_source=newslettershare&utm_medium=flagship&utm_campaign=flagshipnumbered5#f)
-    - Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
+- Krieg, Pandemie
+- Integration
+- Nicht repräsentiert
+- Autos als Status Symbole/Klimawandel
+- Globalisierung
+- Ökonomische Ungleichheit [Wohnungsmarkt](https://www.semafor.com/newsletter/04/30/2024/semafor-flagship-blood-and-soil?utm_source=newslettershare&utm_medium=flagship&utm_campaign=flagshipnumbered5#f)
+- Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
     
 :::
 
@@ -290,10 +300,10 @@ Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057)
 :::
 
 ::: notes
-Bei Polarisierung könnte die soziale Dynamik auf Social Media sehr wohl eine Rolle spielen
-- Sehr viele verschiedene Sichtweisen prallen zusammen - Konflikte, Gesellschaftsgruppen die früher keinen Kontakt hatten, keine öffentlichen Debatten miteinander führten. 
-- Social Media scheint sehr polarisiert, reale Polarisierung ist weniger schlimm. 
-Moderaten Meinungen, Menschen die sich nicht für Politik interessieren, Dinge die gut laufen etc. sind nicht sichtbar. 
+- Bei Polarisierung: soziale Dynamik spielt eine Rolle
+- Sehr viele verschiedene Sichtweisen prallen zusammen 
+- Menschen die sich nicht für Politik interessieren
+- Dinge die gut laufen etc. sind nicht sichtbar. 
 :::
 
 ## Raus aus Social Media?
@@ -309,11 +319,9 @@ Allcott et al. [2024](https://www.pnas.org/doi/10.1073/pnas.2321584121); Allcott
 :::
 
 ::: notes
-Das sieht man auch in Studien in denen ...
-Meinungen ändern sich nicht, aber gefühlte Spaltung nimmt ab, wenn keine Social Media
-Auch positive Effekte: Nachrichtenwissen steigt durch social media nutzung
-
-- Social Media tragen leicht zu gefühlter Polarisierung bei
+- Das sieht man auch in Studien in denen ...
+- Meinungen nicht, aber gefühlte Spaltung nimmt ab
+- Auch positive Effekte: Nachrichtenwissen
 :::
 
 
@@ -339,22 +347,12 @@ Törnberg et al., [2023](http://arxiv.org/abs/2310.05984); Wojcik et al., [2022]
 :::
 
 ::: notes
-Kleine Schritte löschen
-8) Chancen digitale Werkzeuge: (siehe Notizen Folie unten)
 - Algorithmen die menschlichen/gesellschaftlichen Tendenzen entgegen wirken: 
-  - Sichtbarkeit der Lauten => moderate Menschen sichtbarer machen
-  - Übereinstimmunt & Überlappung zwischen Gesellschaftsgruppen und Meinungen
-  - Algorithmen, die Inhalte aus Medien mit hohen journalistischen Standards pushen (Quellenangaben, Herausgeber, Überprüfungen etc.)
-  - Kleine Schritte Richtung Perspektive Anderer fördern
-- Öffentlich finanzierte Social Media Platform für politische Diskussion: Platformen sind für Unterhaltung gemacht, nicht designt für guten Austausch
-  - Chris Bail: anonyme Diskussion mit Dems/Rep
-  
-
-scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung hervorheben
+- Öffentlich finanzierte Social Media Platform für politische Diskussion
 -   [Anonymität depolarisiert](https://osf.io/cwgu5): Ideen vor Identität
 -   Farb-Buttons, die Postingverhalten anderer anzeigen
-- Vertrauenswürdige Quellen boosten 
-- [User Präferenzen berücksichtigen](https://doi.org/10.1177/1745691623119039) - Nachfrage & Tipps vor dem Posten
+- [User Präferenzen berücksichtigen](https://doi.org/10.1177/1745691623119039) 
+- Nachfrage & Tipps vor dem Posten
 :::
 
 ## Nuanciertes Gesamtbild
@@ -382,11 +380,10 @@ scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung 
 ::: notes
 - Soziale Dynamik treibt scheinbare Polarisierung an
 - Soziale Faktoren wirken stärker als Algorithmen
-- Richtiges Design kann einen Beitrag leisten!
-
-Probleme: Armut, Migration, Klimawandel, Bildung, Globalisierung, Rassismus, ...
-- Nuanciertes Bild auf social media und algorithmen - wir sind ihnen nicht ausgeliefert, nicht allmächtig
-- Meinung nur durch Information ändern ist schwierig, Manipulation funktioniert nur, wenn es reale soziale Probleme gibt
+- Nuanciertes Bild auf social media und algorithmen 
+- wir sind ihnen nicht ausgeliefert
+- Können menschliche Tendenzen verstärken
+- Probleme: Armut, Migration, Klimawandel, Bildung, Globalisierung, Rassismus, ...
 :::
 
 
