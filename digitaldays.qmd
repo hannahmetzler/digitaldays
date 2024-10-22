@@ -408,7 +408,7 @@ Probleme: Armut, Migration, Klimawandel, Bildung, Globalisierung, Rassismus, ...
 ![](images/spektrum.png){.absolute top=125 left="20" width="500"}
 <br><br><br><br><br><br><br><br><br><br><br><br>
 [Kurzgesagt Video](https://youtu.be/fuFlMtZmvY0?si=lU02lQlj1J8OrSKG)
-![](images/in_a_nutshell.png){.absolute bottom="50" left="220" width="260"}
+![](images/in_a_nutshell.png){.absolute bottom="70" left="220" width="260"}
 :::
 
 ::: {.column width="45%"}
