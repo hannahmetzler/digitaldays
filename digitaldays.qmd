@@ -413,7 +413,7 @@ Probleme: Armut, Migration, Klimawandel, Bildung, Globalisierung, Rassismus, ...
 
 ::: {.column width="45%"}
 [ORF Dok 1](https://on.orf.at/video/14228328/dok-1-oesterreich-rastet-aus-jeder-gegen-jeden)
-![](images/dok1_orf.png){.absolute bottom=330 left="570" width="370"}
+![](images/dok1_orf.png){.absolute top=120 left="570" width="370"}
 <br><br><br><br><br><br><br><br>
 [DerStandard Podcast](https://www.derstandard.at/story/3000000218043/wahrheit-gegen-luege-die-psychologie-hinter-fake-news) 
 ![](images/derstandard_podcast.png){.absolute bottom="70" left="590" width="370"}
