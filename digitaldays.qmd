@@ -10,6 +10,8 @@ format:
     # incremental: true
     aspect-ratio: 16:9
     slide-number: true
+    speakerNotes: true
+    preview-links: true
 # title-slide-attributes:
 #     data-background-color: "#1f5c99"
 #     data-background-size: cover
@@ -40,7 +42,12 @@ editor: source
 :::
 :::
 
-## Emotionen & Falschinformation
+::: notes
+Forscherin in Psychologie und Neurowissenschaft, zu Emotionen, zu Stress, zu Sozialverhalten. 
+Beginn Pandemie: Start Social Media Forschung zu Emotionen => Fehlinfo
+:::
+
+## Emotionen & Fehlinformationen
 
 ::: columns
 ::: {.column width="50%"}
@@ -59,13 +66,9 @@ knitr::include_graphics("https://img.sparknews.funkemedien.de/242247716/24224771
 ![](images/mig-29-1533260_1920.jpg){.absolute bottom="120" left="0" width="255"} ![](https://cdn.24.co.za/files/Cms/General/d/6003/3563fa82ca9443eea003f3ee25f49519.jpg){.absolute bottom="80" left="300" width="350"} ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/2021_storming_of_the_United_States_Capitol_09.jpg/1280px-2021_storming_of_the_United_States_Capitol_09.jpg){.absolute bottom="120" left="700" width="350"}
 
 ::: notes
-Forscherin in Psychologie und Neurowissenschaft, zu Emotionen, zu Stress, zu Sozialverhalten. 
-Beginn Pandemie: Start Social Media Forschung, Emotionen auf Social media, mentale Gesundheit. 
 Fehlinformation Riesen Thema, so haben wir begonnen, Fehlinformation, Social Media, Algorithmen zu erforschen. 
-Neu in dem Gebiet: ausgegangen von den üblichen geselschaftlichen Annahmen zu Algorithmen, Fehlinfo, Emotionen, Manipulierbarkeit von Menschen. 
-Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, in Frage stellen, ich war oft sehr überrascht.  Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
-
-Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen so sind, was sie denken zu Social Media, Algo, Fehlinfo, Manipulierbarkeit von Menschen. 
+Neu in dem Gebiet: ausgegangen von den üblichen geselschaftlichen Annahmen.
+Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, in Frage stellen, ich war oft sehr überrascht. Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
 :::
 
 ## {.center}
@@ -75,6 +78,8 @@ Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen s
 </iframe>
 
 ::: notes
+Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen so sind, was sie denken zu Social Media, Algo, Fehlinfo, Manipulierbarkeit von Menschen. 
+
 Umfrage: Machen Sie sich Sorgen um die Demokratie wegen Fehlinformationen in den sozialen Medien? Ja/Nein
 Machen Sie sich sorgen wegen der Verbreitung von Fehlinformation über Social Media? Ja/Nein
 Was hat einen besonders starken Einfluss auf gesellschaftliche Polarisierung? (1-2 Antworten)
@@ -88,101 +93,38 @@ Admin link: https://directpoll.com/c?XDVhEtbfEuF4fOXzZmc9jSuEzgZuMh6zfoEZoN
 Results and voting link: shown at link above (on the slide)
 :::
 
-## Fehlinformation als Symptom gesellschaftlicher Polarisierung
+## Zerstören Social Media die Demokratie?
+
+<br>
 
 :::: columns
-::: {.column width="18%"}
-![](https://cdn.pixabay.com/photo/2014/03/24/13/40/courthouse-293963_1280.png)
+::: {.column width="50%"}
+### Annahmen: 
+
+- Algorithmen radikalisieren Menschen
+- Digitale Echokammern polarisieren die Gesellschafft
+
+### Lösungen?
 :::
-::: {.column width="18%"}
-![](https://cdn.pixabay.com/photo/2013/07/13/09/36/megaphone-155780_1280.png)
+::: {.column width="10%"}
+<br>
 :::
-::: {.column width="25%"}
-![](images/hunger-6255733_1280.webp)
-<!-- https://cdn.pixabay.com/photo/2021/05/15/13/20/hunger-6255733_1280.png -->
-:::
-::: {.column width="12%"}
-![](https://cdn.pixabay.com/photo/2017/01/31/00/03/currency-2022440_1280.png)
-:::
-::: {.column width="23%"}
-![](https://cdn.pixabay.com/photo/2016/10/08/04/25/laptop-1723059_1280.png)
+::: {.column width="40%"}
+![](https://cdn.pixabay.com/photo/2014/04/03/10/53/spiral-311612_1280.png){width="200"}
+![](https://cdn.pixabay.com/photo/2021/01/30/06/42/tiktok-5962992_1280.png){width="130"}
+<br>
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/800px-2023_Facebook_icon.svg.png){width="110"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1920px-YouTube_Logo_2017.svg.png){width="220"}
+
 :::
 ::::
-- Vertrauen in Institutionen ([1](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919))
-- Polarisierung der Eliten ([2](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation))
-- Kleine extreme Minderheit teilt & liest ~80% der Fake News
-  - [0.1%](https://www.sciencemag.org/lookup/doi/10.1126/science.aau2706), 
-[1%](https://www.doi.org/10.1017/S0003055421000290), [2%](https://doi.org/10.1080/10584609.2024.2325426), 
-[2107 US Wähler](https://www.science.org/doi/10.1126/science.adl4435) (Wahl 2020)
 
-::: notes
-- Nur 1-6% aller Nachrichten
-- Die meisten Menschen lesen keine politischen Nachrichten.
-- Mehr [Korruption](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919) => Mehr Verschwörungsmythen
-- Misinformation von [Oben](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation) hat großen Einfluss
+- [Echokammern](https://www.pnas.org/content/115/37/9216) auflösen & [Algorithmus](https://www.science.org/doi/full/10.1126/science.abp9364) abdrehen
 
-:::
-
-::: footer
-Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w);
-Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290);
-Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119); 
-Altay et al. [2022](https://journalqd.org/article/view/3617)
-:::
-
-## Wer ist die polarisierende Minderheit?
-
-:::: columns
-::: {.column width="49%"}
-![](images/storm_capitol.jpg)
-<!-- ![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"} -->
-
--  [Politisch Motivierte](https://www.doi.org/10.37016/mr-2020-119) mit extremen Einstellungen
--  [Auch offline feindselig](https://www.doi.org/10.1017/S0003055421000885)
-:::
-
-::: {.column width="49%"}
-::: {.fragment fragment-index=2}
-<br><br><br>
-
-### Warum?
-
-$\uparrow$    Frustration <br> 
-$\downarrow$ Vertrauen in Institutionen <br> 
-$\downarrow$    Nicht repräsentiert fühlen <br>
-$\downarrow$   Status & Privilegien Verlust
-:::
-:::
-
-::::
-
-::: {.fragment fragment-index=1}
--  [USA 2020 Facebook](https://www.science.org/doi/10.1126/science.adl4435): Republikaner, 60% Frauen, ~60J., weiß
-:::
-
-
-
-::: footer
-Baribi-Barto et al .[2024](https://www.science.org/doi/10.1126/science.adl4435);
-Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885);
-Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111)
-:::
-
-::: notes
--   Reale Probleme
-    -   Geschlechterkampf
-    -   Autos als Status Symbole
-    -   Globalisierung
-    -   Ökonomische Ungleichheit [Wohnungsmarkt](https://www.semafor.com/newsletter/04/30/2024/semafor-flagship-blood-and-soil?utm_source=newslettershare&utm_medium=flagship&utm_campaign=flagshipnumbered5#f)
-    - Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
-    
-:::
-
-
-## Einfluss von Algorithmen?
+## Einfluss von Algorithmen
 
 Facebook & Instagram [Studien](https://www.nature.com/articles/s41586-023-06297-w): USA, Wahlen 2020 <br>
-Algorithmus abgedreht oder verändert
+Algorithmus abgedreht oder weniger gleichgesinnte Quellen
 
 <!-- ![](images/Nyhan_2023.svg){.r-stretch} -->
 ```{r, fig.align='right'}
@@ -194,19 +136,29 @@ Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w)
 :::
 
 
+::: notes
+4) Effekte von Algorithmen gibt es, aber sie sind klein. Soziale Faktoren spielen eine viel größere Rolle bei Meinungsbildung. Ich mag Ihnen einzelne Studien zeigen dazu. 
+:::
+
 ## Effekte des Algorithmus abdrehen
 
 ![](images/guess2023_fig3_attitude_knowledge_effects.svg)
 
 <!-- ![](images/Nyhan_2023_results_Fig3_a_d.svg){.r-stretch} -->
 
-Ähnliche Ergebnisse mit [anderem Algorithmus](https://www.science.org/doi/full/10.1126/science.abp9364)/[ohne Re-Shares](https://www.science.org/doi/10.1126/science.add8424)
+Keine Effekte auf Meinungen & gefühlte Spaltung
 
 ::: footer
 Nyhan et al., [2023](https://www.nature.com/articles/s41586-023-06297-w); Guess et al., [2023](https://www.science.org/doi/full/10.1126/science.abp9364); Guess et al., [2023](https://www.science.org/doi/10.1126/science.add8424)
 :::
 
 ::: notes
+Wichtig, nicht zu sagen: algorithmus hat keinen Effekt. Dafür wissen wir viel zu vieles nicht. 
+Was wenn es Algorithmen nie gegeben hätte, wenn wir sie für 3 Jahre lang für ein ganzes land abdrehen könnten, wenn ein Land noch nicht polarisiert ist...
+
+Was wir sagen können: Algo nicht so allmächtig wie wir denken. Abdrehen löst unsere Probleme nicht. 
+
+Balancierte Perspektive auf Rolle von Algorithmen. Können menschliche Tendenzen verstärken, lernen aus menschlichen Daten. Wir müssen aber auch auf die sozialen/menschlichen Faktoren achten.
 :::
 
 ## Der Faktor Mensch
@@ -225,20 +177,101 @@ $\rightarrow$ User suchen aktiv gleichgesinnte Inhalte
 Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Hosseinmardi et al., [2024](https://www.pnas.org/doi/abs/10.1073/pnas.2313377121); Hosseinmardi et al., [2021](https://www.pnas.org/doi/abs/10.1073/pnas.2101967118); Munger & Philipps, [2022](https://doi.org/10.1177/1940161220964767)
 :::
 
-## Raus aus Social Media?
+::: notes
+Wie kann das sein?
+6) Welche Soziale Faktoren meine ich da?
 
-[Account deaktivieren](https://www.pnas.org/doi/10.1073/pnas.2321584121) für 6 Wochen
+- Suche nach Info, wer? Reale Probleme: Lebensumstände, Einsamkeit, sich nicht teil fühlen, Vertrauen in das System, extreme politische Meinungen
+- Menschliche Tendenz zur Gruppenbildung/Bestätigung der eigenen Meinung. 
+:::
 
-![](images/Allcott2024_effects_knowledge_polarization.jpg){width="300"}
+## Welche User?
+
+- Kleine Minderheit teilt & liest ~80% der Fake News: <br> [0.1%](https://www.sciencemag.orfg/lookup/doi/10.1126/science.aau2706), 
+[1%](https://www.doi.org/10.1017/S0003055421000290), [2%](https://doi.org/10.1080/10584609.2024.2325426), 
+[2107 US Wähler](https://www.science.org/doi/10.1126/science.adl4435) (Wahl 2020)
+-  [Politisch motivierte Menschen](https://www.doi.org/10.37016/mr-2020-119) mit extremen Einstellungen
+-  [USA 2020 Facebook](https://www.science.org/doi/10.1126/science.adl4435): Republikaner, 60% Frauen, ~60J., weiß
+
+:::: columns
+::: {.column width="49%"}
+![](images/storm_capitol.jpg)
+<!-- ![](https://peoplesdispatch.org/wp-content/uploads/2021/01/trump-capitol-2.jpg){width="400"} -->
+:::
+
+::: {.column width="49%"}
+::: {.fragment fragment-index=1}
+### Warum?
+
+$\uparrow$    Frustration<br> 
+$\downarrow$ Vertrauen in Institutionen <br> 
+$\downarrow$    Nicht repräsentiert fühlen <br>
+$\downarrow$   Status & Privilegien Verlust
+:::
+:::
+
+::::
+
 
 ::: footer
-Allcott et al. [2024](https://www.pnas.org/doi/10.1073/pnas.2321584121); Allcott et al., [2020](https://pubs.aeaweb.org/doi/10.1257/aer.20190658); Diehl et al., [2021](https://doi.org/10.1093/ijpor/edz040); Asimovic et al. [2021](https://www.pnas.org/doi/10.1073/pnas.2022819118)
+Baribi-Barto et al .[2024](https://www.science.org/doi/10.1126/science.adl4435);
+Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885);
+Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111)
 :::
 
 ::: notes
-- Facebook erhöht politisches Wissen
-- Social Media tragen leicht zu gefühlter Polarisierung bei
+-   Reale Probleme
+    -   Geschlechterkampf
+    -   Autos als Status Symbole
+    -   Globalisierung
+    -   Ökonomische Ungleichheit [Wohnungsmarkt](https://www.semafor.com/newsletter/04/30/2024/semafor-flagship-blood-and-soil?utm_source=newslettershare&utm_medium=flagship&utm_campaign=flagshipnumbered5#f)
+    - Falschinformation überlappt mit [Hassrede](https://doi.org/10.1093/pnasnexus/pgae111)
+    
 :::
+
+## Fehlinformation als Symptom gesellschaftlicher Polarisierung 
+
+:::: columns
+::: {.column width="18%"}
+![](https://cdn.pixabay.com/photo/2014/03/24/13/40/courthouse-293963_1280.png)
+:::
+::: {.column width="18%"}
+![](https://cdn.pixabay.com/photo/2013/07/13/09/36/megaphone-155780_1280.png)
+:::
+::: {.column width="23%"}
+![](https://cdn.pixabay.com/photo/2016/10/08/04/25/laptop-1723059_1280.png)
+:::
+::: {.column width="22%"}
+![](https://cdn.pixabay.com/photo/2022/07/25/16/42/mask-7344171_1280.png)
+:::
+::: {.column width="13%"}
+![](https://cdn.pixabay.com/photo/2017/01/31/00/03/currency-2022440_1280.png)
+:::
+::::
+- Vertrauen in Institutionen ([1](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919))
+- Mehr [Korruption](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919) => Mehr Verschwörungsmythen
+- Polarisierung der Eliten ([2](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation))
+
+::: notes
+3) In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
+
+Misinfo ist ein Symptom gesellschaftlicher Polarisierung, Vertrauen in Institutionen wie Bildung, Medizin, Politik, Medien, Wirtschaft etc gering - Misinfo steigt. 
+Wird geteilt von Menschen, die sich nicht repräsentiert fühlen, extreme politische Meinungen haben, kein Vertrauen in’s System . 
+
+- Nur 1-6% aller Nachrichten
+- Die meisten Menschen lesen keine politischen Nachrichten.
+
+- Misinformation von [Oben](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation) hat großen Einfluss
+
+:::
+
+::: footer
+Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w);
+Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290);
+Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119); 
+Altay et al. [2022](https://journalqd.org/article/view/3617)
+:::
+
 
 
 ## Social Media verzerren die Wirklichkeit
@@ -258,9 +291,7 @@ Allcott et al. [2024](https://www.pnas.org/doi/10.1073/pnas.2321584121); Allcott
 
 <br> 
 
-### Scheinbar starke Spaltung
-
-$\rightarrow$ **verstärkt die gefühlte Polarisierung**
+### Polarisierung scheint stärker, als sie ist. 
 :::
 :::
 
@@ -269,14 +300,42 @@ Törnberg [2022](https://www.pnas.org/doi/10.1073/pnas.2207159119); Bail [2021](
 Metzler & Garcia [2023](https://doi.org/10.1177/17456916231185057)
 :::
 
+::: notes
+Bei Polarisierung könnte die soziale Dynamik auf Social Media sehr wohl eine Rolle spielen
+- Sehr viele verschiedene Sichtweisen prallen zusammen - Konflikte, Gesellschaftsgruppen die früher keinen Kontakt hatten, keine öffentlichen Debatten miteinander führten. 
+- Social Media scheint sehr polarisiert, reale Polarisierung ist weniger schlimm. 
+Moderaten Meinungen, Menschen die sich nicht für Politik interessieren, Dinge die gut laufen etc. sind nicht sichtbar. 
+:::
+
+## Raus aus Social Media?
+
+[Account deaktivieren](https://www.pnas.org/doi/10.1073/pnas.2321584121) für 6 Wochen
+
+![](images/Allcott2024_effects_knowledge_polarization.jpg){width="300"}
+
+$\rightarrow$ Social Media tragen zur gefühlten Polarisierung bei
+
+::: footer
+Allcott et al. [2024](https://www.pnas.org/doi/10.1073/pnas.2321584121); Allcott et al., [2020](https://pubs.aeaweb.org/doi/10.1257/aer.20190658); Diehl et al., [2021](https://doi.org/10.1093/ijpor/edz040); Asimovic et al. [2021](https://www.pnas.org/doi/10.1073/pnas.2022819118)
+:::
+
+::: notes
+Das sieht man auch in Studien in denen ...
+Meinungen ändern sich nicht, aber gefühlte Spaltung nimmt ab, wenn keine Social Media
+Auch positive Effekte: Nachrichtenwissen steigt durch social media nutzung
+
+- Social Media tragen leicht zu gefühlter Polarisierung bei
+:::
+
+
 ## Wie können digitale Tools helfen? 
 
 <br> 
 
 ### Algorithmen
 
+- Moderate Meinungen sichtbar machen
 - Übereinstimmung zwischen Gruppen hervorheben ([1](http://arxiv.org/abs/2210.15723), [2](http://arxiv.org/abs/2310.05984))
-- Perspektivenwechsel: [Kleine Schritte](https://doi.org/10.1093/poq/nfy036) fördern
 - Vertrauenswürdige Quellen boosten
 
 ### Social Media 
@@ -291,6 +350,17 @@ Törnberg et al., [2023](http://arxiv.org/abs/2310.05984); Wojcik et al., [2022]
 :::
 
 ::: notes
+Kleine Schritte löschen
+8) Chancen digitale Werkzeuge: (siehe Notizen Folie unten)
+- Algorithmen die menschlichen/gesellschaftlichen Tendenzen entgegen wirken: 
+  - Sichtbarkeit der Lauten => moderate Menschen sichtbarer machen
+  - Übereinstimmunt & Überlappung zwischen Gesellschaftsgruppen und Meinungen
+  - Algorithmen, die Inhalte aus Medien mit hohen journalistischen Standards pushen (Quellenangaben, Herausgeber, Überprüfungen etc.)
+  - Kleine Schritte Richtung Perspektive Anderer fördern
+- Öffentlich finanzierte Social Media Platform für politische Diskussion: Platformen sind für Unterhaltung gemacht, nicht designt für guten Austausch
+  - Chris Bail: anonyme Diskussion mit Dems/Rep
+  
+
 scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung hervorheben
 -   [Anonymität depolarisiert](https://osf.io/cwgu5): Ideen vor Identität
 -   Farb-Buttons, die Postingverhalten anderer anzeigen
@@ -298,60 +368,62 @@ scheinbare polarisierung sichtbar machen, moderate stimmen und übereinstimmung 
 - [User Präferenzen berücksichtigen](https://doi.org/10.1177/1745691623119039) - Nachfrage & Tipps vor dem Posten
 :::
 
-## Zusammenfassung
+## Nuanciertes Gesamtbild
 
-<br> 
+:::: columns
+::: column
+![](https://pixabay.com/get/gffe330f37ef13bdfe3ff4faecea2cb5dc9c6730b36be78a0b2e10a24896f62a735ec0d934ac2925a2dbfa7ff1165c485.svg)
+:::
+::: column
+### Social Media
 
-### Vertrauen schaffen durch
+- Menschen (in Gruppen)
+- Algorithmen & Co.
 
-- Lösen realer gesellschaftlicher Probleme
-- Transparente und vertrauenswürdige Institutionen
+::: fragment
+### Vertrauen aufbauen
 
-### Social Media, Algorithmen & Co
+- Reale Probleme lösen
+- Transparente & vertrauenswürdige Institutionen
+:::
 
-- Soziale Faktoren wirken stärker als Algorithmen
-- Soziale Dynamik treibt scheinbare Polarisierung an
-- Richtiges Design kann einen Beitrag leisten!
+:::
+::::
 
 ::: notes
-Institutionen: democratische, Medizin, Bildung, Wissenschaft
+- Soziale Dynamik treibt scheinbare Polarisierung an
+- Soziale Faktoren wirken stärker als Algorithmen
+- Richtiges Design kann einen Beitrag leisten!
+
 Probleme: Armut, Migration, Klimawandel, Bildung, Globalisierung, Rassismus, ...
+- Nuanciertes Bild auf social media und algorithmen - wir sind ihnen nicht ausgeliefert, nicht allmächtig
+- Meinung nur durch Information ändern ist schwierig, Manipulation funktioniert nur, wenn es reale soziale Probleme gibt
 :::
 
 
 ## Für Neugierige {.smaller}
 
 :::: columns
-::: {.column width="50%"}
-![](images/spektrum.png)
-
-<!-- [Singh, 2024](https://www.newyorker.com/magazine/2024/04/22/dont-believe-what-theyre-telling-you-about-misinformation) (The New Yorker) -->
-
-<!-- ```{r, fig.align='right'} -->
-<!-- knitr::include_graphics("images/singh2024.png") -->
-<!-- ``` -->
-```{r}
-# knitr::include_graphics("images/in_a_nutshell.png")
-```
+::: {.column width="55%"}
+[Spektrum der Wissenschaft Artikel](https://hannahmetzler.eu/2024-09-13-Mythos_Fehlinformation/)
+![](images/spektrum.png){.absolute top=125 left="20" width="500"}
+<br><br><br><br><br><br><br><br><br><br><br><br>
+[Kurzgesagt Video](https://youtu.be/fuFlMtZmvY0?si=lU02lQlj1J8OrSKG)
+![](images/in_a_nutshell.png){.absolute bottom="50" left="220" width="260"}
 :::
 
-::: {.column width="50%"}
-```{r, out.width=350}
-knitr::include_graphics("images/dok1_orf.png")
-```
-```{r}
-knitr::include_graphics("images/derstandard_podcast.png")
-```
+::: {.column width="45%"}
+[ORF Dok 1](https://on.orf.at/video/14228328/dok-1-oesterreich-rastet-aus-jeder-gegen-jeden)
+![](images/dok1_orf.png){.absolute bottom=330 left="570" width="370"}
+<br><br><br><br><br><br><br><br>
+[DerStandard Podcast](https://www.derstandard.at/story/3000000218043/wahrheit-gegen-luege-die-psychologie-hinter-fake-news) 
+![](images/derstandard_podcast.png){.absolute bottom="70" left="590" width="370"}
 ::::
 
 :::
 
-::: footer
-[Spektrum der Wissenschaft Artikel](https://hannahmetzler.eu/2024-09-13-Mythos_Fehlinformation/) zu Algorithmen, Echokammern & KI; <br>
-[ORF Dok 1](https://on.orf.at/video/14228328/dok-1-oesterreich-rastet-aus-jeder-gegen-jeden)zu Hassrede; [DerStandard Podcast](https://www.derstandard.at/story/3000000218043/wahrheit-gegen-luege-die-psychologie-hinter-fake-news) zu Fehlinformation
-:::
 
-## Tolle Bücher
+## Tolle Bücher  {.smaller}
 
 ::: columns
 
@@ -374,9 +446,66 @@ knitr::include_graphics("images/bail_book.avif")
 
 # Danke für Ihre Aufmerksamkeit!
 
-## Notes {visibility="hidden"}
+## Outline Talk Notes:  {visibility="hidden"}
 
-## Outline Talk  {visibility="hidden"}
+1) Forscherin in Psychologie und Neurowissenschaft, zu Emotionen, zu Stress, zu Sozialverhalten. 
+Beginn Pandemie: Start Social Media Forschung, Emotionen auf Social media, mentale Gesundheit. 
+Fehlinformation Riesen Thema, so haben wir begonnen, Fehlinformation, Social Media, Algorithmen zu erforschen. 
+Neu in dem Gebiet: ausgegangen von den üblichen geselschaftlichen Annahmen zu Algorithmen, Fehlinfo, Emotionen, Manipulierbarkeit von Menschen. 
+Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, in Frage stellen, ich war oft sehr überrascht.  Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
+
+2) Live Fragen
+Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen so sind, was sie denken zu Social Media, Algo, Fehlinfo, Manipulierbarkeit von Menschen. 
+
+3) In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
+
+Misinfo ist ein Symptom gesellschaftlicher Polarisierung, Vertrauen in Institutionen wie Bildung, Medizin, Politik, Medien, Wirtschaft etc gering - Misinfo steigt. 
+Wird geteilt von Menschen, die sich nicht repräsentiert fühlen, extreme politische Meinungen haben, kein Vertrauen in’s System . 
+
+4) Effekte von Algorithmen gibt es, aber sie sind klein. Soziale Faktoren spielen eine viel größere Rolle bei Meinungsbildung. Ich mag Ihnen einzelne Studien zeigen dazu. 
+
+Studien Algorithmen Beispiele
+- abdrehen: keine Effekte auf Meinung, politische Polarisierung
+- gleichgesinnte Inhalte
+- Faktenwissen, Misinfo (read paper Kritik)
+
+5) Facebook verlassen für 6 Wochen
+- Effekte
+- polarisierter Kontext
+
+6) Welche Soziale Faktoren? 
+
+- Suche nach Info, wer? Reale Probleme: Lebensumstände, Einsamkeit, sich nicht teil fühlen, Vertrauen in das System, extreme politische Meinungen
+- Menschliche Tendenz zur Gruppenbildung/Bestätigung der eigenen Meinung. 
+- Sehr viele verschiedene Sichtweisen prallen zusammen - Konflikte, Gesellschaftsgruppen die früher keinen Kontakt hatten, keine öffentlichen Debatten miteinander führten. 
+- Warum glauben wir dass Social Media so wichtig ist? Social Media scheint sehr polarisiert, reale Polarisierung ist weniger schlimm. Wer ist sichtbar? Die Lauten, Extremen. Medien/Politiker fokussieren auf sie. Verzerrtes Bild der wirklichkeit, die moderaten Meinungen, Menschen die sich nicht für Politik interessieren, Dinge die gut laufen etc. sind nicht sichtbar. Fehlinfo punkt?
+
+Balancierte Perspektive auf Rolle von Algorithmen (Waage Bild)
+Nicht so allmächtig wie wir denken. Können menschliche Tendenzen verstärken, lernen aus menschlichen Daten.
+Wir wissen nicht: Was wenn es Algorithmen nie gegeben hätte, wenn wir sie für 3 Jahre lang für ein ganzes land abdrehen könnten, wenn ein Land noch nicht polarisiert ist...
+
+<!-- 7) Vortrag Punkt 2:  -->
+<!-- Menschen sind nicht leicht zu überzeugen. Wir sind recht stur, bleiben gern bei unserem Weltbild. Wenige ändern politische Meinung, Einstellung zu Impfungen, zum Klimawandel etc. Soziales Umfeld sehr prägend.  -->
+<!-- Fehlinformationspostings oder polarisierendes Posting eines Algorithmus macht Menschen nicht blind wütend, Schäfchen die alles glauben. Wenn es nicht in ihr Weltbild passt, glauben sie das nicht. -->
+
+<!-- Wenn sie mir nicht glauben, dass Algorithmen überschätzt werden, ist das eine erste Bestätigung, dass auch sie nicht leicht zu überzeugen sind. Das ist normal und menschlich und gut so! -->
+<!-- Wie häufig ist Misinfo auf Social Media? -->
+
+8) Chancen digitale Werkzeuge: (siehe Notizen Folie unten)
+- Algorithmen die menschlichen/gesellschaftlichen Tendenzen entgegen wirken: 
+  - Sichtbarkeit der Lauten => moderate Menschen sichtbarer machen
+  - Übereinstimmunt & Überlappung zwischen Gesellschaftsgruppen und Meinungen
+  - Algorithmen, die Inhalte aus Medien mit hohen journalistischen Standards pushen (Quellenangaben, Herausgeber, Überprüfungen etc.)
+  - Kleine Schritte Richtung Perspektive Anderer fördern
+- Öffentlich finanzierte Social Media Platform für politische Diskussion: Platformen sind für Unterhaltung gemacht, nicht designt für guten Austausch
+  - Chris Bail: anonyme Diskussion mit Dems/Rep
+  
+9) Zusammenfassung: 
+
+- Nuanciertes Bild auf social media und algorithmen - wir sind ihnen nicht ausgeliefert, nicht allmächtig
+- Meinung nur durch Information ändern ist schwierig, Manipulation funktioniert nur, wenn es reale soziale Probleme gibt
+
+## Outline panel discussion  {visibility="hidden"}
 
 Telefonat Notizen für Diskussion: 
 
@@ -424,78 +553,7 @@ Reale Probleme der Menschen und in der Politik
     -   sehr personalisiert: kann man nicht weiter teilen - wir wollen mit anderen über Content reden können
     -   AI hilft auch der guten Seite -   warum sollten die Bösen da einen Vorteil haben?
 
-### Vortrag Notizen: 
 
-1) Forscherin in Psychologie und Neurowissenschaft, zu Emotionen, zu Stress, zu Sozialverhalten. 
-Beginn Pandemie: Start Social Media Forschung, Emotionen auf Social media, mentale Gesundheit. 
-Fehlinformation Riesen Thema, so haben wir begonnen, Fehlinformation, Social Media, Algorithmen zu erforschen. 
-Neu in dem Gebiet: ausgegangen von den üblichen geselschaftlichen Annahmen zu Algorithmen, Fehlinfo, Emotionen, Manipulierbarkeit von Menschen. 
-Seit ich dazu forsche, musste ich viele Annahmen ändern, Meinungen loslassen, in Frage stellen, ich war oft sehr überrascht.  Ich mag was ich da gelernt hab mit ihnen teilen, und bin neugierig, wie sich vielleicht auch ihre Perspektive ändert. 
-
-Als erstes würde mich deswegen interessieren, wie den ihre aktuellen Annahmen so sind, was sie denken zu Social Media, Algo, Fehlinfo, Manipulierbarkeit von Menschen. 
-2) Live Fragen
-
-3) In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
-
-Misinfo ist ein Symptom gesellschaftlicher Polarisierung, Vertrauen in Institutionen wie Bildung, Medizin, Politik, Medien, Wirtschaft etc gering - Misinfo steigt. 
-Wird geteilt von Menschen, die sich nicht repräsentiert fühlen, extreme politische Meinungen haben, kein Vertrauen in’s System . 
-
-4) Effekte von Algorithmen gibt es, aber sie sind klein. Soziale Faktoren spielen eine viel größere Rolle bei Meinungsbildung. Ich mag Ihnen einzelne Studien zeigen dazu. 
-
-Studien Algorithmen Beispiele
-- abdrehen: keine Effekte auf Meinung, politische Polarisierung
-- gleichgesinnte Inhalte
-- Faktenwissen, Misinfo (read paper Kritik)
-
-5) Facebook verlassen für 6 Wochen
-- Effekte
-- polarisierter Kontext
-
-6) Welche Soziale Faktoren? 
-
-- Suche nach Info, wer? Reale Probleme: Lebensumstände, Einsamkeit, sich nicht teil fühlen, Vertrauen in das System, extreme politische Meinungen
-- Menschliche Tendenz zur Gruppenbildung/Bestätigung der eigenen Meinung. 
-- Sehr viele verschiedene Sichtweisen prallen zusammen - Konflikte, Gesellschaftsgruppen die früher keinen Kontakt hatten, keine öffentlichen Debatten miteinander führten. 
-- Warum glauben wir dass Social Media so wichtig ist? Social Media scheint sehr polarisiert, reale Polarisierung ist weniger schlimm. Wer ist sichtbar? Die Lauten, Extremen. Medien/Politiker fokussieren auf sie. Verzerrtes Bild der wirklichkeit, die moderaten Meinungen, Menschen die sich nicht für Politik interessieren, Dinge die gut laufen etc. sind nicht sichtbar. Fehlinfo punkt?
-
-Balancierte Perspektive auf Rolle von Algorithmen (Waage Bild)
-Nicht so allmächtig wie wir denken. Können menschliche Tendenzen verstärken, lernen aus menschlichen Daten.
-Wir wissen nicht: Was wenn es Algorithmen nie gegeben hätte, wenn wir sie für 3 Jahre lang für ein ganzes land abdrehen könnten, wenn ein Land noch nicht polarisiert ist...
-
-7) Vortrag Punkt 2: 
-Menschen sind nicht leicht zu überzeugen. Wir sind recht stur, bleiben gern bei unserem Weltbild. Wenige ändern politische Meinung, Einstellung zu Impfungen, zum Klimawandel etc. Soziales Umfeld sehr prägend. 
-Fehlinformationspostings oder polarisierendes Posting eines Algorithmus macht Menschen nicht blind wütend, Schäfchen die alles glauben. Wenn es nicht in ihr Weltbild passt, glauben sie das nicht.
-
-Wenn sie mir nicht glauben, dass Algorithmen überschätzt werden, ist das eine erste Bestätigung, dass auch sie nicht leicht zu überzeugen sind. Das ist normal und menschlich und gut so!
-Wie häufig ist Misinfo auf Social Media?
-
-8) Chancen digitale Werkzeuge: (siehe Notizen Folie unten)
-- Algorithmen die menschlichen/gesellschaftlichen Tendenzen entgegen wirken: 
-  - Sichtbarkeit der Lauten => moderate Menschen sichtbarer machen
-  - Übereinstimmunt & Überlappung zwischen Gesellschaftsgruppen und Meinungen
-  - Algorithmen, die Inhalte aus Medien mit hohen journalistischen Standards pushen (Quellenangaben, Herausgeber, Überprüfungen etc.)
-  - Kleine Schritte Richtung Perspektive Anderer fördern
-- Öffentlich finanzierte Social Media Platform für politische Diskussion: Platformen sind für Unterhaltung gemacht, nicht designt für guten Austausch
-  - Chris Bail: anonyme Diskussion mit Dems/Rep
-  
-9) Zusammenfassung: 
-
-- Nuanciertes Bild auf social media und algorithmen - wir sind ihnen nicht ausgeliefert, nicht allmächtig
-- Meinung nur durch Information ändern ist schwierig, Manipulation funktioniert nur, wenn es reale soziale Probleme gibt
-
-Zum nachlesen: Blog post, Spektrum der Wissenschaft
-
-
-## Politisches & Nachrichten Wissen {visibility="hidden"}
-
--   Social Media haben [positiven Effekt](https://www.nature.com/articles/s41562-022-01460-1)
--   Wissen sinkt nach 4 Wochen [Facebook deaktivieren](https://pubs.aeaweb.org/doi/10.1257/aer.20190658)
-
-![](images/allcott2020.svg){width="300"}
-
-::: footer
-Allcott et al., [2020](https://pubs.aeaweb.org/doi/10.1257/aer.20190658); Diehl et al., [2021](https://doi.org/10.1093/ijpor/edz040); Asimovic et al. [2021](https://www.pnas.org/doi/10.1073/pnas.2022819118)
-:::
 
 ## Digitale Echokammern & Filter Bubbles {visibility="hidden"}
 

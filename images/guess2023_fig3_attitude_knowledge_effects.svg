@@ -26,7 +26,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.8899097"
-     inkscape:cx="248.16"
+     inkscape:cx="247.89544"
      inkscape:cy="97.094586"
      inkscape:window-width="1920"
      inkscape:window-height="1051"
@@ -55,5 +55,19 @@
          x="229.10085"
          y="205.69283"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12px;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Treatment effect of chronological feed</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#800000;stroke-width:1.12902;stroke-dasharray:none"
+       id="path1-1"
+       cx="222.72125"
+       cy="44.523029"
+       rx="26.774956"
+       ry="23.628733" />
+    <ellipse
+       style="fill:none;stroke:#800000;stroke-width:1.12902;stroke-dasharray:none"
+       id="path1-1-0"
+       cx="388.19"
+       cy="45.480099"
+       rx="26.774956"
+       ry="23.628733" />
   </g>
 </svg>
