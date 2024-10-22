@@ -216,7 +216,7 @@ $\downarrow$   Status & Privilegien Verlust
 ::: footer
 Baribi-Barto et al .[2024](https://www.science.org/doi/10.1126/science.adl4435);
 Bor & Petersen [2022](https://www.doi.org/10.1017/S0003055421000885);
-Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111)
+Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290)
 :::
 
 ::: notes
@@ -250,7 +250,7 @@ Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111)
 ::::
 - Vertrauen in Institutionen ([1](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919))
 - Mehr [Korruption](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919) => Mehr Verschwörungsmythen
-- Polarisierung der Eliten ([2](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation))
+- Polarisierung der Eliten ([2](https://www.pnas.org/content/115/37/9216), [3]([https://www.nature.com/articles/s41467-022-34769-6]), [4](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation))
 
 ::: notes
 3) In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
@@ -267,7 +267,6 @@ Wird geteilt von Menschen, die sich nicht repräsentiert fühlen, extreme politi
 
 ::: footer
 Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w);
-Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290);
 Altay et al. [2023](https://www.doi.org/10.37016/mr-2020-119); 
 Altay et al. [2022](https://journalqd.org/article/view/3617)
 :::
@@ -311,7 +310,7 @@ Moderaten Meinungen, Menschen die sich nicht für Politik interessieren, Dinge d
 
 [Account deaktivieren](https://www.pnas.org/doi/10.1073/pnas.2321584121) für 6 Wochen
 
-![](images/Allcott2024_effects_knowledge_polarization.jpg){width="300"}
+![](images/Allcott2024_effects_knowledge_polarization.svg){width="300"}
 
 $\rightarrow$ Social Media tragen zur gefühlten Polarisierung bei
 
