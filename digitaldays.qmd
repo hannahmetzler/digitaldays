@@ -179,9 +179,6 @@ Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Ho
 
 ::: notes
 Wie kann das sein?
-6) Welche Soziale Faktoren meine ich da?
-
-- Suche nach Info, wer? Reale Probleme: Lebensumstände, Einsamkeit, sich nicht teil fühlen, Vertrauen in das System, extreme politische Meinungen
 - Menschliche Tendenz zur Gruppenbildung/Bestätigung der eigenen Meinung. 
 :::
 
@@ -253,15 +250,9 @@ Osmundsen et al., [2021](https://www.doi.org/10.1017/S0003055421000290)
 - Polarisierung der Eliten ([2](https://www.pnas.org/content/115/37/9216), [3]([https://www.nature.com/articles/s41467-022-34769-6]), [4](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation))
 
 ::: notes
-3) In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
-
+In Forschung zu Misinfo, Rolle soziales & Algos auf social media, Emotionen, hab ich gelernt: 
 Misinfo ist ein Symptom gesellschaftlicher Polarisierung, Vertrauen in Institutionen wie Bildung, Medizin, Politik, Medien, Wirtschaft etc gering - Misinfo steigt. 
 Wird geteilt von Menschen, die sich nicht repräsentiert fühlen, extreme politische Meinungen haben, kein Vertrauen in’s System . 
-
-- Nur 1-6% aller Nachrichten
-- Die meisten Menschen lesen keine politischen Nachrichten.
-
-- Misinformation von [Oben](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation) hat großen Einfluss
 
 :::
 
@@ -283,12 +274,11 @@ Altay et al. [2022](https://journalqd.org/article/view/3617)
 :::
 
 ::: {.column width="70%"}
-
+- Sichtweisen prallen zusammen
 - Extreme Meinungen sind sichtbar
 - Moderate melden sich nicht zu Wort
 - Konflikte bekommen Aufmerksamkeit, Übereinstimmung nicht
 
-<br> 
 
 ### Polarisierung scheint stärker, als sie ist. 
 :::
