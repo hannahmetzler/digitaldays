@@ -47,6 +47,10 @@ Forscherin in Psychologie und Neurowissenschaft, zu Emotionen, zu Stress, zu Soz
 Beginn Pandemie: Start Social Media Forschung zu Emotionen => Fehlinfo
 :::
 
+::: footer
+Folien (mit Links): https://hannahmetzler.eu/digitaldays
+:::
+
 ## Emotionen & Fehlinformationen
 
 ::: columns
@@ -359,7 +363,7 @@ Törnberg et al., [2023](http://arxiv.org/abs/2310.05984); Wojcik et al., [2022]
 
 :::: columns
 ::: column
-![](https://pixabay.com/get/gffe330f37ef13bdfe3ff4faecea2cb5dc9c6730b36be78a0b2e10a24896f62a735ec0d934ac2925a2dbfa7ff1165c485.svg)
+![](https://cdn.pixabay.com/photo/2016/03/31/21/22/justice-1296381_1280.png)
 :::
 ::: column
 ### Social Media
@@ -493,9 +497,7 @@ Wir wissen nicht: Was wenn es Algorithmen nie gegeben hätte, wenn wir sie für 
 
 ## Outline panel discussion  {visibility="hidden"}
 
-Telefonat Notizen für Diskussion: 
-
-1) Mensch Covid conspiracies während Lockdown, FH Studium, alleine zuhause, online
+1) Anekdote: Mensch Covid conspiracies während Lockdown, FH Studium, alleine zuhause, online
 
 Wenn Mensch psychisch stabil, Freunde & Familie, Vertrauen ins politische system, sich repräsentiert fühlt, Teil der Gesellschaft: dann passiert sowas nicht. 
 Stats: wieviele Menschen in Ö glauben an Verschwörungstheorien, wie häufig war Misinfo auf Facebook während Covid
@@ -506,7 +508,7 @@ Reale Probleme der Menschen und in der Politik
 
 2) Wie kann man Inklusion schaffen? Beitrag von Digitalen Tools?
 
-- Wer darf wählen? 
+- Wer darf wählen?
 - Kann ich in der Arbeit mitgestalten?
 
 - Social Media macht Gruppen erreichbar die sich nicht repräsentiert fühlen. Gute Strategie.
@@ -519,7 +521,7 @@ Reale Probleme der Menschen und in der Politik
 
 3) Gefahr neue AIs für Fehlinformation, Deep Fakes, Propaganda Kampagnen etc. 
 
-- Gefahr von AI nicht verharmlosen. 
+- Gefahr von AI nicht verharmlosen 
   - Große Gefahr Arbeitsmarkt, große Veränderung, Umverteilung von Gewinnen, gesellschafltiche Ungleichheit wird größer, etc.
   - Viele andere Gefahren, wenn intelligente Maschinen vervielfältig werden können, und wir sie nicht mehr verstehen, ihnen Entscheidungen überlassen
   
